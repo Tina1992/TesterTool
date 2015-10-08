@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-<<<<<<< HEAD
-	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/target/unirest-java-1.4.8-SNAPSHOT-jar-with-dependencies.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/OpenCV-3.0.0"/>
-=======
-	<classpathentry kind="lib" path="C:/Users/marmota/Desktop/SIL/Facu/4to/diseño de sistemas de software/Trabajo Final - DetectionFace/Archivos jars para HttpComponents/JDOM/jdom-2.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/marmota/Desktop/SIL/Facu/4to/diseño de sistemas de software/Trabajo Final - DetectionFace/Archivos jars para HttpComponents/JDOM/jdom-2.0.6-contrib.jar"/>
-	<classpathentry kind="lib" path="C:/Users/marmota/Desktop/SIL/Facu/4to/diseño de sistemas de software/Trabajo Final - DetectionFace/Archivos jars para HttpComponents/JDOM/jdom-2.0.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/marmota/Desktop/SIL/Facu/4to/diseño de sistemas de software/Trabajo Final - DetectionFace/Archivos jars para HttpComponents/JDOM/jdom-2.0.6-junit.jar"/>
-	<classpathentry kind="lib" path="C:/Users/marmota/Desktop/SIL/Facu/4to/diseño de sistemas de software/Trabajo Final - DetectionFace/Archivos jars para HttpComponents/JDOM/jdom-2.0.6-sources.jar"/>
->>>>>>> refs/heads/master
+	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/target/unirest-java-1.4.8-SNAPSHOT-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-contrib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

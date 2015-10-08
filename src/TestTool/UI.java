@@ -1,26 +1,21 @@
 package TestTool;
-import java.awt.BorderLayout;
+
 import java.awt.EventQueue;
-
-import javax.swing.JFormattedTextField;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-
 import java.awt.Font;
-
-import javax.swing.JCheckBox;
-
-import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
 
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFormattedTextField;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
 
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.io.IOException;
+import TestTool.CreateXML;
 
 //AÑADIR: CAMPOS OBLIGATORIOS, POSIBILIDAD DE MAS DE UN DIRECTORIO. 
 
