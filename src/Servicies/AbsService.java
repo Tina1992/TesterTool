@@ -8,6 +8,7 @@ public abstract class AbsService {
 	protected float timeout;
 	protected int repeticiones;
 	protected int cantMax;
+	protected ImageProc imageProc;
 	
 	private Hashtable<String, Boolean> disp = new Hashtable<String, Boolean>();
 	
@@ -24,9 +25,5 @@ public abstract class AbsService {
 	public void addAvailableAtt(String at){
 		disp.put(at, true);
 	}
-	
-	public abstract void post();
-	
-	public abstract void parse();
 	
 }

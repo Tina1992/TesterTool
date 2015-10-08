@@ -29,16 +29,6 @@ public class ParserPlan {
 			saxParser = factory.newSAXParser();
 			PlanHandler planHandler = new PlanHandler();
 			saxParser.parse(f, planHandler);
-			/*System.out.print(atributos);
-			System.out.print('\n');
-			System.out.print(providers);
-			System.out.print('\n');
-			System.out.print(metrics);
-			System.out.print('\n');
-			System.out.print(images);
-			System.out.print('\n');
-			System.out.print(tries);
-			System.out.print('\n');*/
 		} catch (ParserConfigurationException | SAXException | IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
