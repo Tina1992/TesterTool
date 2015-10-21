@@ -15,6 +15,15 @@ public abstract class AbsRemoteService extends AbsService {
 
 	public abstract HttpResponse<JsonNode> post(File file, Hashtable<String, Boolean> options) throws UnirestException;
 
-	public abstract void parse(HttpResponse<JsonNode> response, Hashtable<String, Boolean> options);
+	public abstract ImageProc parse(HttpResponse<JsonNode> response, Hashtable<String, Boolean> options);
 
+	public ImageProc getFaceRecognition(File f, Hashtable<String, Boolean> opts){
+		try {
+			return parse(post(f, opts), opts);
+		} catch (UnirestException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
 }

@@ -116,7 +116,7 @@ public class CreateXML {
         
         XMLOutputter xmloutput = new XMLOutputter();
         xmloutput.setFormat(Format.getPrettyFormat());
-        xmloutput.output(documento, new FileWriter("C:/Users/marmota/Desktop/testPlan.xml"));
+        xmloutput.output(documento, new FileWriter("C:/Users/Martina/Desktop/testPlan.xml"));
 	}
 	
 }

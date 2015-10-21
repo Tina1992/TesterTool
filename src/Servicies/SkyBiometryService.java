@@ -1,5 +1,7 @@
 package Servicies;
 
+import java.awt.Point;
+import java.awt.Rectangle;
 import java.io.File;
 import java.util.Hashtable;
 
@@ -58,7 +60,7 @@ public class SkyBiometryService extends AbsRemoteService {
 	}
 
 	@Override
-	public void parse(HttpResponse<JsonNode> response,
+	public ImageProc parse(HttpResponse<JsonNode> response,
 			Hashtable<String, Boolean> options) {
 		JSONObject auxiliar = new JSONObject();
 		try {
@@ -77,8 +79,7 @@ public class SkyBiometryService extends AbsRemoteService {
 				int cantfaces = faces.getJSONArray("tags").length();
 
 				for (int i = 0; i < cantfaces; i++) {
-					JSONObject face = faces.getJSONArray("tags").getJSONObject(
-							i);
+					JSONObject face = faces.getJSONArray("tags").getJSONObject(i);
 					JSONObject coordenadas = face.getJSONObject("center");
 					double faceH = (double) face.get("height") / 100
 							* imgHeight;
@@ -93,17 +94,20 @@ public class SkyBiometryService extends AbsRemoteService {
 					auxiliar.put("y", valueY);
 					auxiliar.put("height", valueHeight);
 					auxiliar.put("width", valueWidth);
-					imageProc.drawRectangles(auxiliar);
+					imageProc.addFace(new Rectangle((int)valueX, (int)valueY, (int)valueHeight, (int)valueWidth));
 					for (String s: options.keySet()){
 						addPoint(s, options, face, imgHeight, imgWidth);
 					}
-					imageProc.displayImage();
+					GraphImage gi=new GraphImage(imageProc);
+					gi.displayImage();
+					return imageProc;
 				}
 
 			}
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
+		return null;
 	}
 
 	private void addPoint(String op, Hashtable<String, Boolean> options, JSONObject face, double h, double w) {
@@ -114,25 +118,25 @@ public class SkyBiometryService extends AbsRemoteService {
 				coor=face.getJSONObject("mouth_center");
 				double x=(double) coor.get("x")/100*w;
 				double y=(double) coor.get("y")/100*h;
-				imageProc.drawPoint(x, y);
+				imageProc.setMouthPoint(new Point((int)x, (int)y));
 				break;
 			}
 			case "Eyes":{
 				coor=face.getJSONObject("eye_right");
 				double x=(double) coor.get("x")/100*w;
 				double y=(double) coor.get("y")/100*h;
-				imageProc.drawPoint(x, y);
+				imageProc.addEyesPoint(new Point((int)x, (int)y));
 				coor=face.getJSONObject("eye_left");
 				x=(double) coor.get("x")/100*w;
 				y=(double) coor.get("y")/100*h;
-				imageProc.drawPoint(x, y);
+				imageProc.addEyesPoint(new Point((int)x, (int)y));
 				break;
 			}
 			case "Nose":{
 				coor=face.getJSONObject("nose");
 				double x=(double) coor.get("x")/100*w;
 				double y=(double) coor.get("y")/100*h;
-				imageProc.drawPoint(x, y);
+				imageProc.setNosePoint(new Point((int)x, (int)y));
 				break;
 			}
 			case "Gender":{

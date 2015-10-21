@@ -1,5 +1,6 @@
 package Servicies;
 
+import java.awt.Rectangle;
 import java.io.File;
 import java.util.Hashtable;
 
@@ -41,7 +42,7 @@ public class FaceRectService extends AbsRemoteService {
 	}
 
 	@Override
-	public void parse(HttpResponse<JsonNode> response,
+	public ImageProc parse(HttpResponse<JsonNode> response,
 			Hashtable<String, Boolean> options) {
 		// TODO Auto-generated method stub
 		try {
@@ -51,28 +52,48 @@ public class FaceRectService extends AbsRemoteService {
 
 			int cantfaces = faces.length();
 			for (int i = 0; i < cantfaces; i++) {
-				imageProc.drawRectangles(faces.getJSONObject(i));
+				int x=faces.getJSONObject(i).getInt("x");
+				int y=faces.getJSONObject(i).getInt("y");
+				int height=faces.getJSONObject(i).getInt("height");
+				int width=faces.getJSONObject(i).getInt("width");
+				imageProc.addFace(new Rectangle(x, y, height, width));
 				if (options.get("Eyes") || options.get("Nose")
 						|| options.get("Mouth")) {
 					JSONObject face = faces.getJSONObject(i);
 					JSONObject features = (JSONObject) face.get("features");
 					if (options.get("Eyes")) {
 						JSONArray eyes = (JSONArray) features.get("eyes");
-						for (int j = 0; j < 2; j++)
-							imageProc.drawRectangles(eyes.getJSONObject(j));
+						for (int j = 0; j < 2; j++){
+							x=eyes.getJSONObject(j).getInt("x");
+							y=eyes.getJSONObject(j).getInt("y");
+							height=eyes.getJSONObject(j).getInt("height");
+							width=eyes.getJSONObject(j).getInt("width");
+							imageProc.addEyeRect(new Rectangle(x, y, height, width));
+						}
 					}
 					if (options.get("Nose")) {
-						imageProc.drawRectangles(features.getJSONObject("nose"));
+						x=features.getJSONObject("nose").getInt("x");
+						y=features.getJSONObject("nose").getInt("y");
+						height=features.getJSONObject("nose").getInt("height");
+						width=features.getJSONObject("nose").getInt("width");
+						imageProc.setNoseRects(new Rectangle(x, y, height, width));
 					}
 					if (options.get("Mouth")) {
-						imageProc.drawRectangles(features.getJSONObject("mouth"));
+						x=features.getJSONObject("mouth").getInt("x");
+						y=features.getJSONObject("mouth").getInt("y");
+						height=features.getJSONObject("mouth").getInt("height");
+						width=features.getJSONObject("mouth").getInt("width");
+						imageProc.setMouthRects(new Rectangle(x, y, height, width));
 					}
 				}
 			}
-			imageProc.displayImage();
+			GraphImage gi = new GraphImage(imageProc);
+			gi.displayImage();
+			return imageProc;
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
+		return null;
 	}
 
 }

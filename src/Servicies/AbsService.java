@@ -1,5 +1,6 @@
 package Servicies;
 
+import java.io.File;
 import java.util.Hashtable;
 
 import TestTool.ParserPlan;
@@ -25,5 +26,7 @@ public abstract class AbsService {
 	public void addAvailableAtt(String at){
 		disp.put(at, true);
 	}
+	
+	public abstract ImageProc getFaceRecognition(File f, Hashtable<String, Boolean> opts);
 	
 }
