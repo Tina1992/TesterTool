@@ -1,23 +1,125 @@
 package Servicies;
 
+import java.awt.Rectangle;
 import java.io.File;
 import java.util.Hashtable;
 
+import org.opencv.core.Core;
+import org.opencv.core.Mat;
 import org.opencv.core.MatOfRect;
+import org.opencv.core.Rect;
+import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.objdetect.CascadeClassifier;
 
-public class OpenCVService extends AbsService{
+public class OpenCVService extends AbsService {
+	
+	public OpenCVService(){
+		addAvailableAtt("Eyes");
+		addAvailableAtt("Mouth");
+		addAvailableAtt("Nose");
+		addAvailableAtt("Glasses");
+	}
+
+	static {
+		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+	}
 
 	@Override
 	public ImageProc getFaceRecognition(File f, Hashtable<String, Boolean> opts) {
 		// TODO Auto-generated method stub
-		/*CascadeClassifier faceDetector=new CascadeClassifier("lbpcascade_frontalface.xml");
+		startTime=System.nanoTime();
+		CascadeClassifier faceDetector = new CascadeClassifier(
+				"lbpcascade_frontalface.xml");
 		MatOfRect faceDetections = new MatOfRect();
-		imageProc=new ImageProc(f.getAbsolutePath());
-		faceDetector.detectMultiScale(image_captured, faceDetections);
-		System.out.println(String.format("Detected %s faces",
-				faceDetections.toArray().length));*/
-		return null;
+		imageProc = new ImageProc(f.getAbsolutePath());
+		Mat image = Imgcodecs.imread(f.getAbsolutePath());
+		faceDetector.detectMultiScale(image, faceDetections);
+		for (Rect face : faceDetections.toArray()) {
+			imageProc.addFace(RectToRectangle(face));
+			processOptions(image, face, opts);
+		}
+		endTime=System.nanoTime();
+		return imageProc;
+	}
+
+	private void processOptions(Mat image, Rect submat,
+			Hashtable<String, Boolean> opts) {
+		for (String o : opts.keySet()) {
+			if (opts.get(o) == true) {
+				switch (o) {
+				case "Mouth": {
+					CascadeClassifier faceDetector2 = new CascadeClassifier(
+							"mouth.xml");
+					MatOfRect mouthDetection = new MatOfRect();
+					Rect r = new Rect();
+					r.x = submat.x;
+					r.height = submat.height / 2;
+					r.y = submat.y + submat.height / 2;
+					r.width = submat.width;
+					faceDetector2.detectMultiScale(image.submat(r),
+							mouthDetection);
+					for (Rect mouth : mouthDetection.toArray()){
+						mouth.x=r.x+mouth.x;
+						mouth.y=r.y+mouth.y;
+						imageProc.addMouthRect(RectToRectangle(mouth));}
+					break;
+				}
+				case "Eyes": {
+					CascadeClassifier faceDetector2 = new CascadeClassifier(
+							"haarcascade_eye.xml");
+					MatOfRect eyesDetection = new MatOfRect();
+					faceDetector2.detectMultiScale(image.submat(submat),
+							eyesDetection);
+					for (Rect eye : eyesDetection.toArray()){
+						eye.x=submat.x+eye.x;
+						eye.y=submat.y+eye.y;
+						imageProc.addEyeRect(RectToRectangle(eye));}
+					break;
+				}
+				case "Nose": {
+					CascadeClassifier faceDetector2 = new CascadeClassifier(
+							"Nariz.xml");
+					MatOfRect noseDetection = new MatOfRect();
+					faceDetector2.detectMultiScale(image.submat(submat),
+							noseDetection);
+					for (Rect nose : noseDetection.toArray()){
+						nose.x=submat.x+nose.x;
+						nose.y=submat.y+nose.y;
+						imageProc.addNoseRect(RectToRectangle(nose));
+					}
+					break;
+				}
+				case "Glasses": {
+					CascadeClassifier faceDetector2 = new CascadeClassifier(
+							"haarcascade_eye_tree_eyeglasses.xml");
+					MatOfRect noseDetection = new MatOfRect();
+					faceDetector2.detectMultiScale(image.submat(submat),
+							noseDetection);
+					if (noseDetection.toArray().length!=0){
+						imageProc.addGlasses(true);
+					}
+					else
+						imageProc.addGlasses(false);
+					break;
+				}
+				}
+			}
+		}
+	}
+
+	private Rectangle RectToRectangle(Rect r) {
+		Rectangle ret = new Rectangle();
+		ret.x = r.x;
+		ret.y = r.y;
+		ret.height = r.height;
+		ret.width = r.width;
+		return ret;
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return "OpenCV";
 	}
 
 }

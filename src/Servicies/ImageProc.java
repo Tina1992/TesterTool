@@ -9,55 +9,67 @@ public class ImageProc {
 	private Vector<Rectangle> faces;
 	
 	private Vector<Rectangle> eyesRects;
-	private Rectangle noseRect;
-	private Rectangle mouthRect;
+	private Vector<Rectangle> noseRects;
+	private Vector<Rectangle> mouthRects;
 
 	private Vector<Point> eyesP = null;
-	private Point noseP = null;
-	private Point mouthP = null;
+	private Vector<Point> nosesP = null;
+	private Vector<Point> mouthsP = null;
+	private Vector<Point> earsP = null;
 	
-	private String Gender = null;
-	private Boolean Glasses = null;
-	private Boolean SunGlasses = null;
-	private Boolean Smile = null;
+	private Vector<String> Genders = null;
+	private Vector<Boolean> Glasses = null;
+	private Vector<Boolean> SunGlasses = null;
+	private Vector<Boolean> Smile = null;
+	private Vector<String> Orientations = null;
 
 	public ImageProc(String path_image) {
 		this.setFile_path(path_image);
 		faces = new Vector<Rectangle>();
-		eyesP = new Vector<Point>();
-		eyesRects = new Vector<Rectangle>();
 	}
 
-	public String getGender() {
-		return Gender;
+	public Vector<String> getGender() {
+		return Genders;
 	}
 
-	public void setGender(String gender) {
-		Gender = gender;
+	public void addGender(String gender) {
+		if (Genders==null){
+			Genders=new Vector<String>();
+		}
+		Genders.add(gender);
 	}
 
-	public Boolean getGlasses() {
+	public Vector<Boolean> getGlasses() {
 		return Glasses;
 	}
 
-	public void setGlasses(boolean glasses) {
-		Glasses = glasses;
+	public void addGlasses(Boolean glasses) {
+		if (Glasses==null){
+			Glasses = new Vector<Boolean>();
+		}
+		Glasses.add(glasses);
 	}
 
-	public Boolean getSunGlasses() {
+	public Vector<Boolean> getSunGlasses() {
 		return SunGlasses;
 	}
 
-	public void setSunGlasses(boolean sunGlasses) {
-		SunGlasses = sunGlasses;
+	public void addSunGlasses(Boolean sunGlasses) {
+		if (SunGlasses==null){
+			SunGlasses = new Vector<Boolean>();
+		}
+		SunGlasses.add(sunGlasses);
 	}
 
-	public Boolean getSmile() {
+	public Vector<Boolean> getSmile() {
 		return Smile;
 	}
 
-	public void setSmile(boolean smile) {
-		Smile = smile;
+	public void addSmile(Boolean smile) {
+		if (Smile==null){
+			Smile = new Vector<Boolean>();
+		}
+		Smile.add(smile);
 	}
 
 	public Vector<Rectangle> getFaces() {
@@ -65,6 +77,9 @@ public class ImageProc {
 	}
 
 	public void addFace(Rectangle cara) {
+		if (faces==null){
+			faces=new Vector<Rectangle>();
+		}
 		faces.add(cara);
 	}
 
@@ -72,24 +87,33 @@ public class ImageProc {
 		return eyesP;
 	}
 
-	public void addEyesPoint(Point eyesP) {
-		this.eyesP.add(eyesP);
+	public void addEyesPoint(Point eyeP) {
+		if (eyesP==null){
+			eyesP=new Vector<Point>();
+		}
+		this.eyesP.add(eyeP);
 	}
 
-	public Point getNosePoint() {
-		return noseP;
+	public Vector<Point> getNosePoints() {
+		return nosesP;
 	}
 
-	public void setNosePoint(Point noseP) {
-		this.noseP = noseP;
+	public void addNosePoint(Point noseP) {
+		if (nosesP==null){
+			nosesP=new Vector<Point>();
+		}
+		nosesP.add(noseP);
 	}
 
-	public Point getMouthPoint() {
-		return mouthP;
+	public Vector<Point> getMouthPoints() {
+		return mouthsP;
 	}
 
-	public void setMouthPoint(Point point) {
-		this.mouthP = point;
+	public void addMouthPoint(Point point) {
+		if (mouthsP==null){
+			mouthsP=new Vector<Point>();
+		}
+		mouthsP.add(point);
 	}
 
 	public String getFile_path() {
@@ -105,23 +129,58 @@ public class ImageProc {
 	}
 
 	public void addEyeRect(Rectangle eyeRect) {
+		if (eyesRects==null){
+			eyesRects=new Vector<Rectangle>();
+		}
 		eyesRects.add(eyeRect);
+		if (eyeRect!=null)
+			addEyesPoint(new Point((int)eyeRect.getCenterX(), (int)eyeRect.getCenterY()));	// Agregamos el punto del medio para Hausdorff
+		else
+			addEyesPoint(new Point(0,0));
 	}
 
-	public Rectangle getNoseRects() {
-		return noseRect;
+	public Vector<Rectangle> getNoseRects() {
+		return noseRects;
 	}
 
-	public void setNoseRects(Rectangle noseRect) {
-		this.noseRect = noseRect;
+	public void addNoseRect(Rectangle noseRect) {
+		if (noseRects==null){
+			noseRects=new Vector<Rectangle>();
+		}
+		noseRects.add(noseRect);
 	}
 
-	public Rectangle getMouthRects() {
-		return mouthRect;
+	public Vector<Rectangle> getMouthRects() {
+		return mouthRects;
 	}
 
-	public void setMouthRects(Rectangle mouthRect) {
-		this.mouthRect = mouthRect;
+	public void addMouthRect(Rectangle mouthRect) {
+		if (mouthRects==null){
+			mouthRects=new Vector<Rectangle>();
+		}
+		mouthRects.add(mouthRect);
+	}
+
+	public Vector<String> getOrientations() {
+		return Orientations;
+	}
+
+	public void addOrientation(String orientation) {
+		if (Orientations==null){
+			Orientations=new Vector<String>();
+		}
+		Orientations.add(orientation);
+	}
+
+	public Vector<Point> getEarsPoints() {
+		return earsP;
+	}
+
+	public void addEarPoint(Point earsP) {
+		if (this.earsP==null){
+			this.earsP=new Vector<Point>();
+		}
+		this.earsP.add(earsP);
 	}
 
 }

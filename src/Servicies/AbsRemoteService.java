@@ -19,7 +19,10 @@ public abstract class AbsRemoteService extends AbsService {
 
 	public ImageProc getFaceRecognition(File f, Hashtable<String, Boolean> opts){
 		try {
-			return parse(post(f, opts), opts);
+			startTime=System.nanoTime();
+			ImageProc im=parse(post(f, opts), opts);
+			endTime=System.nanoTime();
+			return im;
 		} catch (UnirestException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

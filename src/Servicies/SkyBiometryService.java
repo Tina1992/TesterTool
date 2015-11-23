@@ -18,6 +18,7 @@ public class SkyBiometryService extends AbsRemoteService {
 
 	public SkyBiometryService() {
 		super();
+		cantMax=100;
 		addAvailableAtt("Eyes");
 		addAvailableAtt("Nose");
 		addAvailableAtt("Mouth");
@@ -25,6 +26,7 @@ public class SkyBiometryService extends AbsRemoteService {
 		addAvailableAtt("Glasses");
 		addAvailableAtt("SunGlasses");
 		addAvailableAtt("Smile");
+		addAvailableAtt("Ears");
 	}
 
 	@Override
@@ -34,19 +36,19 @@ public class SkyBiometryService extends AbsRemoteService {
 		String s = "";
 		imageProc = new ImageProc(file.getAbsolutePath());
 		if (options.get("Gender")) {
-			s=s.concat("Gender");
+			s = s.concat("Gender");
 		}
-		if (options.get("Glasses")) {
+		if ((options.get("Glasses")) || (options.get("Sunglasses"))) {
 			if (s.equals(""))
-				s=s.concat("Glasses");
+				s = s.concat("Glasses");
 			else
-				s=s.concat(", Glasses");
+				s = s.concat(", Glasses");
 		}
 		if (options.get("Smile")) {
 			if (s.equals(""))
-				s=s.concat("Smiling");
+				s = s.concat("Smiling");
 			else
-				s=s.concat(", Smiling");
+				s = s.concat(", Smiling");
 		}
 		if (s.equals("")) {
 			s = "none";
@@ -66,20 +68,17 @@ public class SkyBiometryService extends AbsRemoteService {
 		try {
 			JSONObject obj = response.getBody().getObject();
 			int cantPhotos = ((JSONArray) obj.get("photos")).length();
+			JSONArray photos = (JSONArray) obj.get("photos");
 			for (int j = 0; j < cantPhotos; j++) {
 				int imgHeight = (int) ((JSONArray) obj.get("photos"))
 						.getJSONObject(j).get("height");
 				int imgWidth = (int) ((JSONArray) obj.get("photos"))
 						.getJSONObject(j).get("width");
 
-				JSONObject faces = ((JSONArray) obj.get("photos"))
-						.getJSONObject(j); // DATOS DE TODOS LOS ROSTROS: TAGS Y
-											// RESTO.
+				JSONArray faces = photos.getJSONObject(j).getJSONArray("tags");
 
-				int cantfaces = faces.getJSONArray("tags").length();
-
-				for (int i = 0; i < cantfaces; i++) {
-					JSONObject face = faces.getJSONArray("tags").getJSONObject(i);
+				for (int i = 0; i < faces.length(); i++) {
+					JSONObject face = (JSONObject) faces.get(i);
 					JSONObject coordenadas = face.getJSONObject("center");
 					double faceH = (double) face.get("height") / 100
 							* imgHeight;
@@ -94,81 +93,151 @@ public class SkyBiometryService extends AbsRemoteService {
 					auxiliar.put("y", valueY);
 					auxiliar.put("height", valueHeight);
 					auxiliar.put("width", valueWidth);
-					imageProc.addFace(new Rectangle((int)valueX, (int)valueY, (int)valueHeight, (int)valueWidth));
-					for (String s: options.keySet()){
+					imageProc.addFace(new Rectangle((int) valueX, (int) valueY,
+							(int) valueHeight, (int) valueWidth));
+					for (String s : options.keySet()) {
 						addPoint(s, options, face, imgHeight, imgWidth);
 					}
-					GraphImage gi=new GraphImage(imageProc);
-					gi.displayImage();
-					return imageProc;
 				}
-
 			}
+			return imageProc;
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
 		return null;
 	}
 
-	private void addPoint(String op, Hashtable<String, Boolean> options, JSONObject face, double h, double w) {
+	private void addPoint(String op, Hashtable<String, Boolean> options,
+			JSONObject face, double h, double w) {
 		JSONObject coor = null;
 		if (options.get(op)) {
 			switch (op) {
 			case "Mouth": {
-				coor=face.getJSONObject("mouth_center");
-				double x=(double) coor.get("x")/100*w;
-				double y=(double) coor.get("y")/100*h;
-				imageProc.setMouthPoint(new Point((int)x, (int)y));
-				break;
+				try {
+					coor = face.getJSONObject("mouth_center");
+					double x = (double) coor.get("x") / 100 * w;
+					double y = (double) coor.get("y") / 100 * h;
+					imageProc.addMouthPoint(new Point((int) x, (int) y));
+					break;
+				} catch (Exception e) {
+					imageProc.addMouthPoint(null);
+					break;
+				}
 			}
-			case "Eyes":{
-				coor=face.getJSONObject("eye_right");
-				double x=(double) coor.get("x")/100*w;
-				double y=(double) coor.get("y")/100*h;
-				imageProc.addEyesPoint(new Point((int)x, (int)y));
-				coor=face.getJSONObject("eye_left");
-				x=(double) coor.get("x")/100*w;
-				y=(double) coor.get("y")/100*h;
-				imageProc.addEyesPoint(new Point((int)x, (int)y));
-				break;
+			case "Eyes": {
+				try {
+					coor = face.getJSONObject("eye_right");
+					double x = (double) coor.get("x") / 100 * w;
+					double y = (double) coor.get("y") / 100 * h;
+					imageProc.addEyesPoint(new Point((int) x, (int) y));
+					coor = face.getJSONObject("eye_left");
+					x = (double) coor.get("x") / 100 * w;
+					y = (double) coor.get("y") / 100 * h;
+					imageProc.addEyesPoint(new Point((int) x, (int) y));
+					break;
+				} catch (Exception e) {
+					imageProc.addEyesPoint(null);
+					break;
+				}
+
 			}
-			case "Nose":{
-				coor=face.getJSONObject("nose");
-				double x=(double) coor.get("x")/100*w;
-				double y=(double) coor.get("y")/100*h;
-				imageProc.setNosePoint(new Point((int)x, (int)y));
-				break;
+			case "Ears": {
+				try {
+					coor = face.getJSONObject("ear_right");
+					double x = (double) coor.get("x") / 100 * w;
+					double y = (double) coor.get("y") / 100 * h;
+					imageProc.addEarPoint(new Point((int) x, (int) y));
+					coor = face.getJSONObject("ear_left");
+					x = (double) coor.get("x") / 100 * w;
+					y = (double) coor.get("y") / 100 * h;
+					imageProc.addEarPoint(new Point((int) x, (int) y));
+					break;
+				} catch (Exception e) {
+					imageProc.addEarPoint(null);
+					break;
+				}
 			}
-			case "Gender":{
-				JSONObject att=face.getJSONObject("attributes");
-				JSONObject gen=att.getJSONObject("gender");
-				String genVal=(String)gen.get("value");
-				imageProc.setGender(genVal);
-				break;
+			case "Nose": {
+				try {
+					coor = face.getJSONObject("nose");
+					double x = (double) coor.get("x") / 100 * w;
+					double y = (double) coor.get("y") / 100 * h;
+					imageProc.addNosePoint(new Point((int) x, (int) y));
+					break;
+				} catch (Exception e) {
+					imageProc.addNosePoint(null);
+					break;
+				}
 			}
-			case "Glasses":{
-				JSONObject att=face.getJSONObject("attributes");
-				JSONObject gen=att.getJSONObject("glasses");
-				String genVal=(String)gen.get("value");
-				imageProc.setGlasses(Boolean.getBoolean(genVal));
-				break;
+			case "Gender": {
+				try {
+					JSONObject att = face.getJSONObject("attributes");
+					JSONObject gen = att.getJSONObject("gender");
+					String genVal = (String) gen.get("value");
+					imageProc.addGender(genVal);
+					break;
+				} catch (Exception e) {
+					imageProc.addGender("undefined");
+					break;
+				}
 			}
-			case "Smile":{
-				JSONObject att=face.getJSONObject("attributes");
-				JSONObject gen=att.getJSONObject("smiling");
-				String genVal=(String)gen.get("value");
-				imageProc.setSmile(Boolean.getBoolean(genVal));
-				break;
+			case "Glasses": {
+				try {
+					JSONObject att = face.getJSONObject("attributes");
+					JSONObject gen = att.getJSONObject("glasses");
+					String genVal = (String) gen.get("value");
+					Boolean b = false;
+					if (genVal.equals("true")) {
+						b = true;
+					}
+					imageProc.addGlasses(b);
+					break;
+				} catch (Exception e) {
+					imageProc.addGlasses(null);
+					break;
+				}
+
 			}
-			case "SunGlasses":{
-				JSONObject att=face.getJSONObject("attributes");
-				JSONObject gen=att.getJSONObject("dark_glasses");
-				String genVal=(String)gen.get("value");
-				imageProc.setSunGlasses(Boolean.getBoolean(genVal));
-				break;
+			case "Smile": {
+				try {
+					JSONObject att = face.getJSONObject("attributes");
+					JSONObject gen = att.getJSONObject("smiling");
+					String genVal = (String) gen.get("value");
+					Boolean b = false;
+					if (genVal.equals("true")) {
+						b = true;
+					}
+					imageProc.addSmile(b);
+					break;
+				} catch (Exception e) {
+					imageProc.addSmile(null);
+					break;
+				}
+			}
+			case "SunGlasses": {
+				try {
+					JSONObject att = face.getJSONObject("attributes");
+					JSONObject gen = att.getJSONObject("dark_glasses");
+					String genVal = (String) gen.get("value");
+					Boolean b = false;
+					if (genVal.equals("true")) {
+						b = true;
+					}
+					imageProc.addSunGlasses(b);
+					break;
+				} catch (Exception e) {
+					imageProc.addSunGlasses(null);
+					break;
+				}
 			}
 			}
 		}
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return "SkyBiometry";
 	}
 
 }

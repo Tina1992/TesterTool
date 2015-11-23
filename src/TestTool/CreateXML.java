@@ -1,12 +1,9 @@
 package TestTool;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
 
-import org.jdom2.Attribute;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.output.Format;
@@ -53,6 +50,7 @@ public class CreateXML {
 	}
 	
 	public void addDirectorio(String d){
+		System.out.println(d);
 		directorios.add(d);
 	}
 	
@@ -62,8 +60,6 @@ public class CreateXML {
 		Element settings = new Element("settings");
 		
 		//RECORRIENDO LA HASHTABLE
-		Enumeration<String> keys = atributos.keys();
-		
 		for(String k:atributos.keySet()){
 			String value=atributos.get(k).toString();
 			settings.addContent(new Element(k).setText(value));
@@ -89,7 +85,7 @@ public class CreateXML {
 	public Element Metrics(){
 		Element Metrics = new Element("Metrics");
 		for(int i=0;i<metrics.size();i++)
-			Metrics.addContent((new Element("metrics")).setText(metrics.elementAt(i)));
+			Metrics.addContent((new Element("Metric")).setText(metrics.elementAt(i)));
 		return Metrics;
 	}
 	
@@ -116,7 +112,11 @@ public class CreateXML {
         
         XMLOutputter xmloutput = new XMLOutputter();
         xmloutput.setFormat(Format.getPrettyFormat());
-        xmloutput.output(documento, new FileWriter("C:/Users/Martina/Desktop/testPlan.xml"));
+        String workingDir = System.getProperty("user.dir");
+        if (name==null)
+        	xmloutput.output(documento, new FileWriter(workingDir+"\\testPlan.xml"));
+        else
+        	xmloutput.output(documento, new FileWriter(workingDir+"\\"+name+".xml"));
 	}
 	
 }

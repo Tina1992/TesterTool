@@ -18,7 +18,9 @@ public class PlanHandler extends DefaultHandler {
 
 	public void characters(char ch[], int start, int length)
 			throws SAXException {
-		String sResult = new String(ch, start, length);
+		String sResult = new String(ch, start, length).trim();
+		if (sResult.equals(""))
+			return;
 		if (sResult.equals("true")||sResult.equals("false")) {
 			if (sResult.equals("true"))
 				ParserPlan.atributos.put(att, true);
@@ -31,8 +33,8 @@ public class PlanHandler extends DefaultHandler {
 			if (att.equals("Metric")){
 				ParserPlan.metrics.add(sResult);
 			}
-			if (att.equals("ImageName")){
-				ParserPlan.images.add(sResult);
+			if (att.equals("DirectoryName")){
+				ParserPlan.imagesDir.add(sResult);
 			}
 			if (att.equals("NumberOfExecutionsPerImageAndProvider") && (!sResult.equals("1"))){
 				ParserPlan.tries = Integer.parseInt(sResult);
