@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan>
+  <Name>HolaSoyLaPrecision</Name>
+  <NumberOfExecutionsPerImageAndProvider>1</NumberOfExecutionsPerImageAndProvider>
+  <Providers>
+    <ProviderName>OpenCV</ProviderName>
+  </Providers>
+  <settings>
+    <Eyes>true</Eyes>
+    <Smile>false</Smile>
+    <Nose>true</Nose>
+    <Ears>false</Ears>
+    <Sunglasses>false</Sunglasses>
+    <FaceOrientation>false</FaceOrientation>
+    <Cheeks>false</Cheeks>
+    <Gender>false</Gender>
+    <Mouth>true</Mouth>
+    <Glasses>false</Glasses>
+  </settings>
+  <Images>
+    <DirectoryName>C:\Users\Martina\workspace\TestToolJava\Faces 2</DirectoryName>
+  </Images>
+  <Metrics>
+    <Metric>ResponseTime</Metric>
+    <Metric>Precision</Metric>
+  </Metrics>
+</TestPlan>

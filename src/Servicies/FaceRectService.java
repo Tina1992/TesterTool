@@ -64,49 +64,56 @@ public class FaceRectService extends AbsRemoteService {
 				if (options.get("Eyes") || options.get("Nose")
 						|| options.get("Mouth")) {
 					JSONObject face = faces.getJSONObject(i);
-					JSONObject features = (JSONObject) face.get("features");
-					if (options.get("Eyes")) {
-						try {
-							JSONArray eyes = (JSONArray) features.get("eyes");
-							for (int j = 0; j < eyes.length(); j++) {
-								x = eyes.getJSONObject(j).getInt("x");
-								y = eyes.getJSONObject(j).getInt("y");
-								height = eyes.getJSONObject(j).getInt("height");
-								width = eyes.getJSONObject(j).getInt("width");
-								imageProc.addEyeRect(new Rectangle(x, y,
-										height, width));
+					try {
+						JSONObject features = (JSONObject) face.get("features");
+						if (options.get("Eyes")) {
+							try {
+								JSONArray eyes = (JSONArray) features
+										.get("eyes");
+								for (int j = 0; j < eyes.length(); j++) {
+									x = eyes.getJSONObject(j).getInt("x");
+									y = eyes.getJSONObject(j).getInt("y");
+									height = eyes.getJSONObject(j).getInt(
+											"height");
+									width = eyes.getJSONObject(j).getInt(
+											"width");
+									imageProc.addEyeRect(new Rectangle(x, y,
+											height, width));
+								}
+							} catch (Exception e) {
+								imageProc.addEyeRect(null); // Si no hay ojos
 							}
-						} catch (Exception e) {
-							imageProc.addEyeRect(null); // Si no hay ojos
 						}
-					}
-					if (options.get("Nose")) {
-						try {
-							x = features.getJSONObject("nose").getInt("x");
-							y = features.getJSONObject("nose").getInt("y");
-							height = features.getJSONObject("nose").getInt(
-									"height");
-							width = features.getJSONObject("nose").getInt(
-									"width");
-							imageProc.addNoseRect(new Rectangle(x, y, height,
-									width));
-						} catch (Exception e) {
-							imageProc.addNoseRect(null); // Si no hay nariz
+						if (options.get("Nose")) {
+							try {
+								x = features.getJSONObject("nose").getInt("x");
+								y = features.getJSONObject("nose").getInt("y");
+								height = features.getJSONObject("nose").getInt(
+										"height");
+								width = features.getJSONObject("nose").getInt(
+										"width");
+								imageProc.addNoseRect(new Rectangle(x, y,
+										height, width));
+							} catch (Exception e) {
+								imageProc.addNoseRect(null); // Si no hay nariz
+							}
 						}
-					}
-					if (options.get("Mouth")) {
-						try {
-							x = features.getJSONObject("mouth").getInt("x");
-							y = features.getJSONObject("mouth").getInt("y");
-							height = features.getJSONObject("mouth").getInt(
-									"height");
-							width = features.getJSONObject("mouth").getInt(
-									"width");
-							imageProc.addMouthRect(new Rectangle(x, y, width,
-									height));
-						} catch (Exception e) {
-							imageProc.addMouthRect(null); // Si no hay boca
+						if (options.get("Mouth")) {
+							try {
+								x = features.getJSONObject("mouth").getInt("x");
+								y = features.getJSONObject("mouth").getInt("y");
+								height = features.getJSONObject("mouth")
+										.getInt("height");
+								width = features.getJSONObject("mouth").getInt(
+										"width");
+								imageProc.addMouthRect(new Rectangle(x, y,
+										width, height));
+							} catch (Exception e) {
+								imageProc.addMouthRect(null); // Si no hay boca
+							}
 						}
+					} catch (Exception e) {
+						//No hacer nada
 					}
 				}
 			}

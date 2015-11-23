@@ -25,7 +25,6 @@ public class ImageProc {
 
 	public ImageProc(String path_image) {
 		this.setFile_path(path_image);
-		faces = new Vector<Rectangle>();
 	}
 
 	public Vector<String> getGender() {

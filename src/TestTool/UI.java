@@ -271,11 +271,11 @@ public class UI extends JFrame {
 				//----------------------------ATRIBUTOS-----------------------------
 
 				if (checkbox_Imagesize.isSelected()) {
-					createXML.addMetrics("Imagesize");
+					createXML.addMetrics("ImageSize");
 				}
 
 				if (checkbox_Imageformat.isSelected()) {
-					createXML.addMetrics("Imageformat");
+					createXML.addMetrics("ImageFormat");
 				}
 
 				// ---------------NUMBER EXEC PER IMAGE & PROVIDER
@@ -322,7 +322,11 @@ public class UI extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				if (planCreado){
 				String workingDir = System.getProperty("user.dir");
-				Tester.test(workingDir + "\\"+NombreArchivo.getText()+".xml");}
+				Tester.test(workingDir + "\\"+NombreArchivo.getText()+".xml");
+				JPanel panel = new JPanel();
+				JOptionPane.showMessageDialog(panel, "Se terminó la ejecución del testing", "", JOptionPane.INFORMATION_MESSAGE);
+				UI.this.setVisible(true);
+				}
 				else
 				{
 					JPanel panel = new JPanel();

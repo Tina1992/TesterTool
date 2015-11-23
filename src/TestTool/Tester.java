@@ -59,10 +59,10 @@ public class Tester {
 								for (AbsMetric m : ParserPlan.metricsMet) {
 									try {
 										float dato=m.getDato(s, im);
-										if (dato>=0){
+										if (dato>0){
 										line+=", "+m.getDato(s, im);}
 										else
-											line+=", error";
+											line+=", error - "+ errors(dato);
 										//System.out.println(m.getDato(s, im));
 									} catch (Exception e) {
 										// TODO Auto-generated catch block
@@ -81,6 +81,19 @@ public class Tester {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
+	}
+
+	private static String errors(float dato) {
+		if (dato==-1){
+			return "archivo incorrecto para Hausdorff";
+		}
+		if (dato==-2){
+			return "no se encontraron ojos en la imagen";
+		}
+		if (dato==-3){
+			return "no se encontraron caras en la imagen";
+		}
+		return "archivo incorrecto para Precision";
 	}
 
 }

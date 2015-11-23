@@ -76,38 +76,35 @@ public class PrecisionMetric extends AbsMetric {
 	// -------Fin de metodos de creación del dataset-----------
 
 	@Override
-	public float getDato(AbsService service, ImageProc image) throws Exception {
+	public float getDato(AbsService service, ImageProc image) {
 		// TODO Auto-generated method stub
-		if (!(image.getFile_path().contains("Faces"))) {
-			Exception e = new Exception(
-					"Para obtener Precision debe utilizar una imagen de la carpeta Faces");
-			throw e;
-		} else {
-			Path file_path = FileSystems.getDefault().getPath(
-					image.getFile_path());
-			Path file_name = file_path.getFileName();
+		Path file_path = FileSystems.getDefault().getPath(image.getFile_path());
+		Path file_name = file_path.getFileName();
 
-			String workingDir = System.getProperty("user.dir");
-			Path prec_path = FileSystems.getDefault().getPath(
-					workingDir + "\\Precision",
-					file_name.toString().replace(".jpg", ".txt"));
+		String workingDir = System.getProperty("user.dir");
+		Path prec_path = FileSystems.getDefault().getPath(
+				workingDir + "\\Precision",
+				file_name.toString().replace(".jpg", ".txt"));
 
-			Charset ENCODING = StandardCharsets.UTF_8;
-			try {
+		Charset ENCODING = StandardCharsets.UTF_8;
+		try {
+			if (image.getFaces() != null) {
 				BufferedReader reader = Files.newBufferedReader(prec_path,
 						ENCODING);
 				String line = reader.readLine();
 				if (line != null) {
-					Integer i = new Integer(line);
-					System.out.println(image.getFaces().size());
-					return (float)image.getFaces().size() / (float)i;
+					Integer p=image.getFaces().size();
+					Integer tp = new Integer(line);
+					Integer fp = new Integer(Math.abs(p-tp));
+					return (float)tp  / (float) (tp+fp);
 				}
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			return 0;
+			} else
+				return -3;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			return -4;
 		}
+		return 0;
 	}
 
 	@Override

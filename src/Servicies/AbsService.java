@@ -12,8 +12,8 @@ public abstract class AbsService {
 	
 	private Hashtable<String, Boolean> disp = new Hashtable<String, Boolean>();
 	
-	protected long startTime;
-	protected long endTime;
+	protected float startTime;
+	protected float endTime;
 	
 	public AbsService(){
 		for (String s:ParserPlan.atributos.keySet()){

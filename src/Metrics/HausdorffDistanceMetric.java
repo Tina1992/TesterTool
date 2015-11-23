@@ -99,40 +99,40 @@ public class HausdorffDistanceMetric extends AbsMetric {
 	}
 
 	@Override
-	public float getDato(AbsService service, ImageProc image) throws Exception {
+	public float getDato(AbsService service, ImageProc image) {
 		// TODO Auto-generated method stub
-
-		if (!(image.getFile_path().contains("Eyeimages"))) {
-			Exception e = new Exception(
-					"Para obtener Hausdorff Distance debe utilizar una imagen de la carpeta Eyeimages");
-			throw e;
-		} else {
-			if ((image.getFaces() != null) && (image.getEyesPoints() != null)) {
+		if (image.getFaces() != null) {
+			if (image.getEyesPoints() != null) {
 				Path file_path = FileSystems.getDefault().getPath(
 						image.getFile_path());
-				Path file_name = file_path.getFileName();
+					Path file_name = file_path.getFileName();
 
-				String workingDir = System.getProperty("user.dir");
-				Path eyes_path = FileSystems.getDefault().getPath(
-						workingDir + "\\Eyepos",
-						file_name.toString().replace(".jpg", ".eye"));
+					String workingDir = System.getProperty("user.dir");
+					Path eyes_path = FileSystems.getDefault().getPath(
+							workingDir + "\\Eyepos",
+							file_name.toString().replace(".jpg", ".eye"));
 
-				File f = new File(eyes_path.toString());
+					File f = new File(eyes_path.toString());
 
-				JSONObject eyes_prec = getPosicionManual(f); // Obtenemos los
-																// x's e y's del
-																// archivo
-																// Eyepos/nombredelaimage.txt
+					JSONObject eyes_prec;
 
-				return (float) getMayorDistancia(image.getEyesPoints(),
-						eyes_prec);
+					try {
+						eyes_prec = getPosicionManual(f);
+						return (float) getMayorDistancia(image.getEyesPoints(),
+								eyes_prec);
+					} catch (JSONException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (IOException e) {
+						return -1;
+					} // Obtenemos los x's e y's del archivo Eyepos/nombredelaimage.txt
+				}
+				else
+					return -2;
 			} else {
-				System.err
-						.println("No se puede obetener el HausdorffDistance sin obtener los ojos");
-				return -1;
+				return -3;
 			}
-
-		}
+		return 0;
 
 	}
 
