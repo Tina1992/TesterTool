@@ -32,6 +32,7 @@ public class ParserPlan {
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		SAXParser saxParser;
 		try {
+			emptyVectors();
 			saxParser = factory.newSAXParser();
 			PlanHandler planHandler = new PlanHandler();
 			saxParser.parse(f, planHandler);
@@ -43,7 +44,24 @@ public class ParserPlan {
 		}
 	}
 
+	private static void emptyVectors() {
+		if (!atributos.isEmpty()){
+			atributos=new Hashtable<String, Boolean>();
+		}
+		if (!providers.isEmpty()){
+			providers=new Vector<String>();
+		}
+		if (!metrics.isEmpty()){
+			metrics=new Vector<String>();
+		}
+		if (!imagesDir.isEmpty()){
+			imagesDir=new Vector<String>();
+		}
+		
+	}
+
 	private static void decodeServices() {
+		providersServices = new Vector<AbsService>();
 		for (String s : providers) {
 			try {
 				if (!(s.contains("GooglePlay"))) {
@@ -73,6 +91,7 @@ public class ParserPlan {
 	}
 	
 	private static void decodeMetrics() {
+		metricsMet = new Vector<AbsMetric>();
 		for (String s : metrics) {
 			try {
 					Object instanceOfMyClass = Class.forName("Metrics." + s + "Metric")

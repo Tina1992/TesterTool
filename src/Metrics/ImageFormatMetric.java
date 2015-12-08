@@ -9,11 +9,11 @@ import Servicies.ImageProc;
 public class ImageFormatMetric extends AbsMetric {
 
 	@Override
-	public float getDato(AbsService service, ImageProc image) throws Exception {
+	public Object getDato(AbsService service, ImageProc image){
 		// TODO Auto-generated method stub
 		Path path=Paths.get(image.getFile_path());
 		String name=path.getFileName().toString();
-		return 0;
+		return name.substring(name.length()-3);
 	}
 
 	@Override

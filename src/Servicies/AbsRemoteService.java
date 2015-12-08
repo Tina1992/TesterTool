@@ -20,9 +20,15 @@ public abstract class AbsRemoteService extends AbsService {
 	public ImageProc getFaceRecognition(File f, Hashtable<String, Boolean> opts){
 		try {
 			startTime=System.nanoTime();
-			ImageProc im=parse(post(f, opts), opts);
+			HttpResponse<JsonNode> res=post(f,opts);
+			if (res.getStatus()==200){
+				imageProc=parse(res, opts);}
+			else{
+				imageProc = new ImageProc(f.getAbsolutePath());
+				imageProc.setError(res.getStatus());
+			}
 			endTime=System.nanoTime();
-			return im;
+			return imageProc;
 		} catch (UnirestException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

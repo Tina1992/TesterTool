@@ -18,7 +18,7 @@ public class SkyBiometryService extends AbsRemoteService {
 
 	public SkyBiometryService() {
 		super();
-		cantMax=100;
+		cantMax = 100;
 		addAvailableAtt("Eyes");
 		addAvailableAtt("Nose");
 		addAvailableAtt("Mouth");
@@ -65,6 +65,7 @@ public class SkyBiometryService extends AbsRemoteService {
 	public ImageProc parse(HttpResponse<JsonNode> response,
 			Hashtable<String, Boolean> options) {
 		JSONObject auxiliar = new JSONObject();
+
 		try {
 			JSONObject obj = response.getBody().getObject();
 			int cantPhotos = ((JSONArray) obj.get("photos")).length();

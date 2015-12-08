@@ -12,9 +12,9 @@ import org.jdom2.output.XMLOutputter;
 
 public class CreateXML {
 	
-	public  Hashtable<String,Boolean> atributos=new Hashtable<String,Boolean>();
-	public  Vector<String> providers=new Vector<String>();
-	public  Vector<String> metrics=new Vector<String>();
+	private  Hashtable<String,Boolean> atributos=new Hashtable<String,Boolean>();
+	private  Vector<String> providers=new Vector<String>();
+	private  Vector<String> metrics=new Vector<String>();
 	private String execPerImage="1";
 	private String name;
 	private Vector<String> directorios=new Vector<String>(); 
@@ -22,7 +22,9 @@ public class CreateXML {
 	
 	
 	public CreateXML(){
-		
+		atributos = new Hashtable<String,Boolean>();
+		providers = new Vector<String>();
+		metrics = new Vector<String>();
 	}
 	
 	public void addAtributo(String k, Boolean v){

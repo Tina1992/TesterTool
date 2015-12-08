@@ -20,7 +20,7 @@ public class HausdorffPromMetric {
 			File archivoIMG=directoryListing[i];
 			ImageProc im=service.getFaceRecognition(archivoIMG, opts);
 			HausdorffDistanceMetric hm=new HausdorffDistanceMetric();
-			float distancia=hm.getDato(service, im);
+			float distancia=(float)hm.getDato(service, im);
 			if (distancia<errorRelativo){
 				imgdetectadas++;
 			}

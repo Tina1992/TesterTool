@@ -1,123 +1,953 @@
-Execution number, image name, Provider name, Response Time (in seconds), Precision (in per cents)
-1º, Aaron_Eckhart_0001.jpg, OpenCV, 0.23488103, 1.0
-1º, Aaron_Guiel_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Aaron_Patterson_0001.jpg, OpenCV, 0.03355443, error - no se encontraron caras en la imagen
-1º, Aaron_Peirsol_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Aaron_Peirsol_0002.jpg, OpenCV, 0.2013266, 1.0
-1º, Aaron_Peirsol_0003.jpg, OpenCV, 0.16777216, 1.0
-1º, Aaron_Peirsol_0004.jpg, OpenCV, 0.2013266, 1.0
-1º, Aaron_Pena_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Aaron_Sorkin_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Aaron_Sorkin_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Aaron_Tippin_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Abbas_Kiarostami_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Abba_Eban_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdel_Aziz_Al-Hakim_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdel_Madi_Shabneh_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdel_Nasser_Assidi_0001.jpg, OpenCV, 0.4026532, 1.0
-1º, Abdel_Nasser_Assidi_0002.jpg, OpenCV, 0.03355443, error - no se encontraron caras en la imagen
-1º, Abdoulaye_Wade_0001.jpg, OpenCV, 0.30198988, 0.5
-1º, Abdoulaye_Wade_0002.jpg, OpenCV, 0.26843545, 0.5
-1º, Abdoulaye_Wade_0003.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdoulaye_Wade_0004.jpg, OpenCV, 0.2013266, 1.0
-1º, Abdulaziz_Kamilov_0001.jpg, OpenCV, 0.4026532, 0.6666667
-1º, Abdullah_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Abdullah_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_0003.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_0004.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Ahmad_Badawi_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Abdullah_al-Attiyah_0001.jpg, OpenCV, 0.03355443, error - no se encontraron caras en la imagen
-1º, Abdullah_al-Attiyah_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_al-Attiyah_0003.jpg, OpenCV, 0.26843545, 0.5
-1º, Abdullah_Gul_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Abdullah_Gul_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Gul_0003.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Gul_0004.jpg, OpenCV, 0.2013266, 1.0
-1º, Abdullah_Gul_0005.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Gul_0006.jpg, OpenCV, 0.26843545, 0.5
-1º, Abdullah_Gul_0007.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Gul_0008.jpg, OpenCV, 0.26843545, 0.5
-1º, Abdullah_Gul_0009.jpg, OpenCV, 0.30198988, 0.5
-1º, Abdullah_Gul_0010.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Gul_0011.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Gul_0012.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Gul_0013.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Gul_0014.jpg, OpenCV, 0.2013266, 1.0
-1º, Abdullah_Gul_0015.jpg, OpenCV, 0.13421772, 1.0
-1º, Abdullah_Gul_0016.jpg, OpenCV, error - archivo incorrecto para Precision, error - no se encontraron caras en la imagen
-1º, Abdullah_Gul_0017.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Gul_0018.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullah_Gul_0019.jpg, OpenCV, 0.2013266, 1.0
-1º, Abdullah_Nasseef_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullatif_Sener_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdullatif_Sener_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdul_Majeed_Shobokshi_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Abdul_Rahman_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Abel_Aguilar_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Abel_Pacheco_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Abel_Pacheco_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Abel_Pacheco_0003.jpg, OpenCV, 0.16777216, 1.0
-1º, Abel_Pacheco_0004.jpg, OpenCV, 0.2013266, 1.0
-1º, Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg, OpenCV, 0.13421772, 1.0
-1º, Abid_Hamid_Mahmud_Al-Tikriti_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Abid_Hamid_Mahmud_Al-Tikriti_0003.jpg, OpenCV, 0.30198988, 0.5
-1º, Abner_Martinez_0001.jpg, OpenCV, 0.13421772, 1.0
-1º, Abraham_Foxman_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Aby_Har-Even_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adam_Ant_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adam_Freier_0001.jpg, OpenCV, 0.03355443, error - no se encontraron caras en la imagen
-1º, Adam_Herbert_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adam_Kennedy_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adam_Mair_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Adam_Rich_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adam_Sandler_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adam_Sandler_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Adam_Sandler_0003.jpg, OpenCV, 0.2013266, 1.0
-1º, Adam_Sandler_0004.jpg, OpenCV, 0.16777216, 1.0
-1º, Adam_Scott_0001.jpg, OpenCV, 0.03355443, error - no se encontraron caras en la imagen
-1º, Adam_Scott_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Adelina_Avila_0001.jpg, OpenCV, 0.23488103, 1.0
-1º, Adel_Al-Jubeir_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Adel_Al-Jubeir_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Adel_Al-Jubeir_0003.jpg, OpenCV, 0.16777216, 1.0
-1º, Adisai_Bodharamik_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adolfo_Aguilar_Zinser_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Adolfo_Aguilar_Zinser_0002.jpg, OpenCV, 0.30198988, 1.0
-1º, Adolfo_Aguilar_Zinser_0003.jpg, OpenCV, 0.16777216, 1.0
-1º, Adolfo_Rodriguez_Saa_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adolfo_Rodriguez_Saa_0002.jpg, OpenCV, 0.30198988, 0.5
-1º, Adoor_Gopalakarishnan_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Adriana_Lima_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adriana_Perez_Navarro_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adrianna_Zuzic_0001.jpg, OpenCV, 0.23488103, 1.0
-1º, Adrian_Annus_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adrian_Fernandez_0001.jpg, OpenCV, 0.30198988, 0.5
-1º, Adrian_McPherson_0001.jpg, OpenCV, 0.03355443, error - no se encontraron caras en la imagen
-1º, Adrian_McPherson_0002.jpg, OpenCV, 0.2013266, 1.0
-1º, Adrian_Murrell_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Adrian_Nastase_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Adrian_Nastase_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Adrien_Brody_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Adrien_Brody_0002.jpg, OpenCV, 0.30198988, 0.5
-1º, Adrien_Brody_0003.jpg, OpenCV, 0.16777216, 1.0
-1º, Adrien_Brody_0004.jpg, OpenCV, 0.2013266, 1.0
-1º, Adrien_Brody_0005.jpg, OpenCV, 0.26843545, 0.5
-1º, Adrien_Brody_0006.jpg, OpenCV, 0.2013266, 1.0
-1º, Adrien_Brody_0007.jpg, OpenCV, 0.16777216, 1.0
-1º, Adrien_Brody_0008.jpg, OpenCV, 0.16777216, 1.0
-1º, Adrien_Brody_0009.jpg, OpenCV, 0.16777216, 1.0
-1º, Adrien_Brody_0010.jpg, OpenCV, 0.16777216, 1.0
-1º, Adrien_Brody_0011.jpg, OpenCV, 0.16777216, 1.0
-1º, Adrien_Brody_0012.jpg, OpenCV, 0.16777216, 1.0
-1º, Afton_Smith_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Agbani_Darego_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Agnelo_Queiroz_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Agnes_Bruckner_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Ahmad_Jbarah_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Ahmad_Masood_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Ahmad_Masood_0002.jpg, OpenCV, 0.13421772, 1.0
-1º, Ahmed_Ahmed_0001.jpg, OpenCV, 0.16777216, 1.0
-1º, Ahmed_Chalabi_0001.jpg, OpenCV, 0.2013266, 1.0
-1º, Ahmed_Chalabi_0002.jpg, OpenCV, 0.16777216, 1.0
-1º, Ahmed_Chalabi_0003.jpg, OpenCV, 0.16777216, 1.0
-1º, Ahmed_Chalabi_0004.jpg, OpenCV, 0.16777216, 1.0
+Execution number, image name, Provider name, Response Time (in seconds), Hausdorff Distance (in pixels), Precision (in per cents)
+1º, Abdel_Nasser_Assidi_0001.jpg, FaceRect, 5.9726887, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdel_Nasser_Assidi_0002.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdoulaye_Wade_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdoulaye_Wade_0002.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdoulaye_Wade_0003.jpg, FaceRect, 0.77175194, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdoulaye_Wade_0004.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdulaziz_Kamilov_0001.jpg, FaceRect, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0001.jpg, FaceRect, 0.8053064, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0002.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0003.jpg, FaceRect, 0.87241524, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0004.jpg, FaceRect, 0.9059697, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Ahmad_Badawi_0001.jpg, FaceRect, 0.9059697, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_al-Attiyah_0001.jpg, FaceRect, 0.77175194, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, Abdullah_al-Attiyah_0002.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_al-Attiyah_0003.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0001.jpg, FaceRect, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0002.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0003.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0004.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0005.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0006.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0013.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0014.jpg, FaceRect, 0.9059697, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0015.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0016.jpg, FaceRect, 0.87241524, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, Abdullah_Gul_0017.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0018.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0019.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Nasseef_0001.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullatif_Sener_0001.jpg, FaceRect, 0.8388608, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullatif_Sener_0002.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdul_Majeed_Shobokshi_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdul_Rahman_0001.jpg, FaceRect, 0.8388608, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Aguilar_0001.jpg, FaceRect, 0.8388608, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0002.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0003.jpg, FaceRect, 0.77175194, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0004.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg, FaceRect, 0.77175194, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abid_Hamid_Mahmud_Al-Tikriti_0002.jpg, FaceRect, 0.6375342, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, Abid_Hamid_Mahmud_Al-Tikriti_0003.jpg, FaceRect, 0.8388608, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abner_Martinez_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abraham_Foxman_0001.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Aby_Har-Even_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Ant_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Freier_0001.jpg, FaceRect, 0.9059697, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Herbert_0001.jpg, FaceRect, 0.8388608, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Kennedy_0001.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Mair_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Rich_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0001.jpg, FaceRect, 0.8053064, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0002.jpg, FaceRect, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0003.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0004.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Scott_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Scott_0002.jpg, FaceRect, 0.8053064, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adelina_Avila_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adel_Al-Jubeir_0001.jpg, FaceRect, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adel_Al-Jubeir_0002.jpg, FaceRect, 0.8053064, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adel_Al-Jubeir_0003.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adisai_Bodharamik_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Aguilar_Zinser_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Aguilar_Zinser_0002.jpg, FaceRect, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Aguilar_Zinser_0003.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Rodriguez_Saa_0001.jpg, FaceRect, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Rodriguez_Saa_0002.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adoor_Gopalakarishnan_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adriana_Lima_0001.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adriana_Perez_Navarro_0001.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrianna_Zuzic_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Annus_0001.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Fernandez_0001.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_McPherson_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_McPherson_0002.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Murrell_0001.jpg, FaceRect, 0.77175194, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Nastase_0001.jpg, FaceRect, 0.87241524, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Nastase_0002.jpg, FaceRect, 0.8053064, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0002.jpg, FaceRect, 1.241514, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0003.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0004.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0005.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0006.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0007.jpg, FaceRect, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0008.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0009.jpg, FaceRect, 0.8053064, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0010.jpg, FaceRect, 0.6375342, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, Adrien_Brody_0011.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0012.jpg, FaceRect, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+1º, Afton_Smith_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Agbani_Darego_0001.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Agnelo_Queiroz_0001.jpg, FaceRect, 0.8053064, error - archivo incorrecto para Hausdorff, 1.0
+1º, Agnes_Bruckner_0001.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmad_Jbarah_0001.jpg, FaceRect, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmad_Masood_0001.jpg, FaceRect, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmad_Masood_0002.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Ahmed_0001.jpg, FaceRect, 1.476395, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0001.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0002.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0003.jpg, FaceRect, 0.77175194, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0004.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+1º, BioID_0011.jpg, FaceRect, 1.2079595, 3.0, error - archivo incorrecto para Precision
+1º, BioID_0012.jpg, FaceRect, 1.0737418, 44.407207, error - archivo incorrecto para Precision
+1º, BioID_0013.jpg, FaceRect, 1.1744051, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0014.jpg, FaceRect, 1.0737418, 267.71066, error - archivo incorrecto para Precision
+1º, BioID_0015.jpg, FaceRect, 1.1072962, 264.57892, error - archivo incorrecto para Precision
+1º, BioID_0016.jpg, FaceRect, 1.0066329, 2.0, error - archivo incorrecto para Precision
+1º, BioID_0017.jpg, FaceRect, 1.0737418, 1.4142135, error - archivo incorrecto para Precision
+1º, BioID_0018.jpg, FaceRect, 1.0737418, 3.0, error - archivo incorrecto para Precision
+1º, BioID_0019.jpg, FaceRect, 1.1744051, 1.4142135, error - archivo incorrecto para Precision
+1º, BioID_0020.jpg, FaceRect, 1.1744051, 1.4142135, error - archivo incorrecto para Precision
+1º, BioID_0021.jpg, FaceRect, 1.0737418, 2.0, error - archivo incorrecto para Precision
+1º, BioID_0022.jpg, FaceRect, 1.1072962, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0023.jpg, FaceRect, 1.1408507, 2.0, error - archivo incorrecto para Precision
+1º, BioID_0024.jpg, FaceRect, 1.1072962, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0025.jpg, FaceRect, 1.0066329, 61.03278, error - archivo incorrecto para Precision
+1º, BioID_0026.jpg, FaceRect, 1.0066329, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0027.jpg, FaceRect, 1.0401874, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0028.jpg, FaceRect, 1.0066329, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0029.jpg, FaceRect, 1.2079595, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0030.jpg, FaceRect, 1.3757317, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0031.jpg, FaceRect, 0.97307855, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0032.jpg, FaceRect, 1.0737418, 57.035076, error - archivo incorrecto para Precision
+1º, BioID_0033.jpg, FaceRect, 1.0401874, 2.0, error - archivo incorrecto para Precision
+1º, BioID_0034.jpg, FaceRect, 1.0066329, 2.0, error - archivo incorrecto para Precision
+1º, BioID_0035.jpg, FaceRect, 1.1072962, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0036.jpg, FaceRect, 1.0066329, 1.4142135, error - archivo incorrecto para Precision
+1º, BioID_0037.jpg, FaceRect, 1.0066329, 1.4142135, error - archivo incorrecto para Precision
+1º, BioID_0038.jpg, FaceRect, 1.0737418, 1.0, error - archivo incorrecto para Precision
+1º, BioID_0039.jpg, FaceRect, 1.0066329, 1.0, error - archivo incorrecto para Precision
+1º, BioID_0040.jpg, FaceRect, 1.2079595, 259.62473, error - archivo incorrecto para Precision
+1º, BioID_0041.jpg, FaceRect, 1.0737418, 2.0, error - archivo incorrecto para Precision
+1º, BioID_0042.jpg, FaceRect, 1.0401874, 257.94766, error - archivo incorrecto para Precision
+1º, BioID_0043.jpg, FaceRect, 1.1072962, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0044.jpg, FaceRect, 1.1072962, 4.472136, error - archivo incorrecto para Precision
+1º, BioID_0045.jpg, FaceRect, 1.0737418, 2.0, error - archivo incorrecto para Precision
+1º, BioID_0046.jpg, FaceRect, 1.0737418, 263.18054, error - archivo incorrecto para Precision
+1º, BioID_0047.jpg, FaceRect, 1.0401874, 227.84424, error - archivo incorrecto para Precision
+1º, BioID_0048.jpg, FaceRect, 1.1408507, 65.00769, error - archivo incorrecto para Precision
+1º, BioID_0049.jpg, FaceRect, 1.0737418, 63.126858, error - archivo incorrecto para Precision
+1º, BioID_0050.jpg, FaceRect, 1.2750684, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0051.jpg, FaceRect, 1.1072962, 77.0, error - archivo incorrecto para Precision
+1º, BioID_0052.jpg, FaceRect, 1.1408507, 1.4142135, error - archivo incorrecto para Precision
+1º, BioID_0053.jpg, FaceRect, 1.0401874, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0054.jpg, FaceRect, 1.0066329, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0055.jpg, FaceRect, 1.2079595, 250.14595, error - archivo incorrecto para Precision
+1º, BioID_0056.jpg, FaceRect, 1.3421773, 5.0990195, error - archivo incorrecto para Precision
+1º, BioID_0057.jpg, FaceRect, 1.1408507, 2.828427, error - archivo incorrecto para Precision
+1º, BioID_0058.jpg, FaceRect, 1.2079595, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0059.jpg, FaceRect, 1.0737418, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0060.jpg, FaceRect, 1.0737418, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0061.jpg, FaceRect, 1.1072962, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0062.jpg, FaceRect, 1.1744051, 3.0, error - archivo incorrecto para Precision
+1º, BioID_0063.jpg, FaceRect, 1.0737418, 252.93675, error - archivo incorrecto para Precision
+1º, BioID_0064.jpg, FaceRect, 1.1408507, 2.0, error - archivo incorrecto para Precision
+1º, BioID_0065.jpg, FaceRect, 1.4428406, 2.828427, error - archivo incorrecto para Precision
+1º, BioID_0066.jpg, FaceRect, 1.5435039, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0067.jpg, FaceRect, 1.2079595, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0068.jpg, FaceRect, 1.241514, 82.006096, error - archivo incorrecto para Precision
+1º, BioID_0069.jpg, FaceRect, 1.2750684, 254.80385, error - archivo incorrecto para Precision
+1º, BioID_0070.jpg, FaceRect, 1.2079595, 275.6175, error - archivo incorrecto para Precision
+1º, BioID_0071.jpg, FaceRect, 1.4428406, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0072.jpg, FaceRect, 1.1408507, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0073.jpg, FaceRect, 1.3086228, 251.18121, error - archivo incorrecto para Precision
+1º, BioID_0074.jpg, FaceRect, 1.5099494, 253.94684, error - archivo incorrecto para Precision
+1º, BioID_0075.jpg, FaceRect, 1.3421773, 3.0, error - archivo incorrecto para Precision
+1º, BioID_0076.jpg, FaceRect, 1.2750684, 3.6055512, error - archivo incorrecto para Precision
+1º, BioID_0077.jpg, FaceRect, 1.3086228, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0078.jpg, FaceRect, 1.2750684, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0079.jpg, FaceRect, 1.3086228, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0080.jpg, FaceRect, 1.2750684, 87.28116, error - archivo incorrecto para Precision
+1º, BioID_0081.jpg, FaceRect, 1.1744051, 81.154175, error - archivo incorrecto para Precision
+1º, BioID_0082.jpg, FaceRect, 1.3421773, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0083.jpg, FaceRect, 1.4092861, 258.58847, error - archivo incorrecto para Precision
+1º, BioID_0084.jpg, FaceRect, 1.3757317, 86.05231, error - archivo incorrecto para Precision
+1º, BioID_0085.jpg, FaceRect, 1.2750684, 269.65164, error - archivo incorrecto para Precision
+1º, BioID_0086.jpg, FaceRect, 1.3086228, 3.6055512, error - archivo incorrecto para Precision
+1º, BioID_0087.jpg, FaceRect, 1.3421773, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0088.jpg, FaceRect, 1.3421773, 6.4031243, error - archivo incorrecto para Precision
+1º, BioID_0089.jpg, FaceRect, 1.2750684, 85.09406, error - archivo incorrecto para Precision
+1º, BioID_0090.jpg, FaceRect, 1.2750684, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0091.jpg, FaceRect, 1.2750684, 1.4142135, error - archivo incorrecto para Precision
+1º, BioID_0092.jpg, FaceRect, 1.476395, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0093.jpg, FaceRect, 1.1408507, 1.4142135, error - archivo incorrecto para Precision
+1º, BioID_0094.jpg, FaceRect, 1.1072962, 7.071068, error - archivo incorrecto para Precision
+1º, BioID_0095.jpg, FaceRect, 1.4428406, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0096.jpg, FaceRect, 1.241514, 2.0, error - archivo incorrecto para Precision
+1º, BioID_0097.jpg, FaceRect, 1.3086228, 59.03389, error - archivo incorrecto para Precision
+1º, Abdel_Nasser_Assidi_0001.jpg, SkyBiometry, 2.5165825, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+1º, Abdel_Nasser_Assidi_0002.jpg, SkyBiometry, 2.0132658, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdoulaye_Wade_0001.jpg, SkyBiometry, 1.241514, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdoulaye_Wade_0002.jpg, SkyBiometry, 2.4494736, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdoulaye_Wade_0003.jpg, SkyBiometry, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdoulaye_Wade_0004.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdulaziz_Kamilov_0001.jpg, SkyBiometry, 1.8454938, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0001.jpg, SkyBiometry, 1.2750684, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0002.jpg, SkyBiometry, 1.3757317, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0003.jpg, SkyBiometry, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0004.jpg, SkyBiometry, 1.6106128, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Ahmad_Badawi_0001.jpg, SkyBiometry, 1.3421773, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_al-Attiyah_0001.jpg, SkyBiometry, 1.3086228, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_al-Attiyah_0002.jpg, SkyBiometry, 1.6106128, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_al-Attiyah_0003.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0001.jpg, SkyBiometry, 1.4428406, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0002.jpg, SkyBiometry, 2.0468204, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0003.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0004.jpg, SkyBiometry, 1.241514, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0005.jpg, SkyBiometry, 1.3421773, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0006.jpg, SkyBiometry, 1.6777216, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0013.jpg, SkyBiometry, 1.4092861, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0014.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0015.jpg, SkyBiometry, 1.476395, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0016.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0017.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0018.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0019.jpg, SkyBiometry, 1.3757317, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Nasseef_0001.jpg, SkyBiometry, 1.2750684, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullatif_Sener_0001.jpg, SkyBiometry, 1.5435039, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullatif_Sener_0002.jpg, SkyBiometry, 1.5770583, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdul_Majeed_Shobokshi_0001.jpg, SkyBiometry, 1.241514, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdul_Rahman_0001.jpg, SkyBiometry, 1.476395, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Aguilar_0001.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0001.jpg, SkyBiometry, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0002.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0003.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0004.jpg, SkyBiometry, 1.241514, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg, SkyBiometry, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abid_Hamid_Mahmud_Al-Tikriti_0002.jpg, SkyBiometry, 1.3757317, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abid_Hamid_Mahmud_Al-Tikriti_0003.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abner_Martinez_0001.jpg, SkyBiometry, 1.4092861, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abraham_Foxman_0001.jpg, SkyBiometry, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+1º, Aby_Har-Even_0001.jpg, SkyBiometry, 1.241514, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Ant_0001.jpg, SkyBiometry, 1.6777216, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Freier_0001.jpg, SkyBiometry, 1.3421773, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Herbert_0001.jpg, SkyBiometry, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Kennedy_0001.jpg, SkyBiometry, 1.3086228, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Mair_0001.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Rich_0001.jpg, SkyBiometry, 1.476395, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0001.jpg, SkyBiometry, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0002.jpg, SkyBiometry, 1.3086228, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0003.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0004.jpg, SkyBiometry, 1.4092861, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Scott_0001.jpg, SkyBiometry, 1.476395, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Scott_0002.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adelina_Avila_0001.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adel_Al-Jubeir_0001.jpg, SkyBiometry, 1.3757317, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adel_Al-Jubeir_0002.jpg, SkyBiometry, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adel_Al-Jubeir_0003.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adisai_Bodharamik_0001.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Aguilar_Zinser_0001.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Aguilar_Zinser_0002.jpg, SkyBiometry, 1.9126027, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Aguilar_Zinser_0003.jpg, SkyBiometry, 1.476395, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Rodriguez_Saa_0001.jpg, SkyBiometry, 1.3086228, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Rodriguez_Saa_0002.jpg, SkyBiometry, 1.241514, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adoor_Gopalakarishnan_0001.jpg, SkyBiometry, 1.241514, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adriana_Lima_0001.jpg, SkyBiometry, 1.3757317, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adriana_Perez_Navarro_0001.jpg, SkyBiometry, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrianna_Zuzic_0001.jpg, SkyBiometry, 1.4428406, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Annus_0001.jpg, SkyBiometry, 1.2750684, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Fernandez_0001.jpg, SkyBiometry, 1.241514, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_McPherson_0001.jpg, SkyBiometry, 1.2750684, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_McPherson_0002.jpg, SkyBiometry, 1.4092861, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Murrell_0001.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Nastase_0001.jpg, SkyBiometry, 1.3086228, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Nastase_0002.jpg, SkyBiometry, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0001.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0002.jpg, SkyBiometry, 1.5770583, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0003.jpg, SkyBiometry, 1.476395, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0004.jpg, SkyBiometry, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0005.jpg, SkyBiometry, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0006.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0007.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0008.jpg, SkyBiometry, 1.2750684, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0009.jpg, SkyBiometry, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0010.jpg, SkyBiometry, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0011.jpg, SkyBiometry, 1.2750684, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0012.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Afton_Smith_0001.jpg, SkyBiometry, 1.2750684, error - archivo incorrecto para Hausdorff, 1.0
+1º, Agbani_Darego_0001.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Agnelo_Queiroz_0001.jpg, SkyBiometry, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+1º, Agnes_Bruckner_0001.jpg, SkyBiometry, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmad_Jbarah_0001.jpg, SkyBiometry, 1.2750684, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmad_Masood_0001.jpg, SkyBiometry, 1.241514, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmad_Masood_0002.jpg, SkyBiometry, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Ahmed_0001.jpg, SkyBiometry, 1.8119394, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0001.jpg, SkyBiometry, 2.248147, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0002.jpg, SkyBiometry, 1.3421773, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0003.jpg, SkyBiometry, 1.3421773, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdel_Nasser_Assidi_0001.jpg, OpenCV, 0.87241524, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdel_Nasser_Assidi_0002.jpg, OpenCV, 0.06710886, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, Abdoulaye_Wade_0001.jpg, OpenCV, 0.43620762, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdoulaye_Wade_0002.jpg, OpenCV, 0.36909875, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdoulaye_Wade_0003.jpg, OpenCV, 0.23488103, error - no se encontraron ojos en la imagen, 1.0
+1º, Abdoulaye_Wade_0004.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdulaziz_Kamilov_0001.jpg, OpenCV, 0.50331646, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0002.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0003.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_0004.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Ahmad_Badawi_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_al-Attiyah_0001.jpg, OpenCV, 0.06710886, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, Abdullah_al-Attiyah_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_al-Attiyah_0003.jpg, OpenCV, 0.4026532, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0002.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0003.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0004.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0005.jpg, OpenCV, 0.30198988, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0006.jpg, OpenCV, 0.50331646, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0013.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0014.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0015.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0016.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Gul_0017.jpg, OpenCV, 0.26843545, error - no se encontraron ojos en la imagen, 1.0
+1º, Abdullah_Gul_0018.jpg, OpenCV, 0.2013266, error - no se encontraron ojos en la imagen, 1.0
+1º, Abdullah_Gul_0019.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullah_Nasseef_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullatif_Sener_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdullatif_Sener_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdul_Majeed_Shobokshi_0001.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abdul_Rahman_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Aguilar_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0001.jpg, OpenCV, 0.4026532, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0003.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abel_Pacheco_0004.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg, OpenCV, 0.30198988, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abid_Hamid_Mahmud_Al-Tikriti_0002.jpg, OpenCV, 0.33554432, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abid_Hamid_Mahmud_Al-Tikriti_0003.jpg, OpenCV, 0.36909875, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abner_Martinez_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Abraham_Foxman_0001.jpg, OpenCV, 0.60397977, error - archivo incorrecto para Hausdorff, 1.0
+1º, Aby_Har-Even_0001.jpg, OpenCV, 0.23488103, error - no se encontraron ojos en la imagen, 1.0
+1º, Adam_Ant_0001.jpg, OpenCV, 0.30198988, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Freier_0001.jpg, OpenCV, 0.06710886, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, Adam_Herbert_0001.jpg, OpenCV, 0.23488103, error - no se encontraron ojos en la imagen, 1.0
+1º, Adam_Kennedy_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Mair_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Rich_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0001.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0002.jpg, OpenCV, 0.43620762, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0003.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Sandler_0004.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adam_Scott_0001.jpg, OpenCV, 0.06710886, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, Adam_Scott_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adelina_Avila_0001.jpg, OpenCV, 0.2013266, error - no se encontraron ojos en la imagen, 1.0
+1º, Adel_Al-Jubeir_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adel_Al-Jubeir_0002.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adel_Al-Jubeir_0003.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adisai_Bodharamik_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Aguilar_Zinser_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Aguilar_Zinser_0002.jpg, OpenCV, 0.36909875, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Aguilar_Zinser_0003.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Rodriguez_Saa_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adolfo_Rodriguez_Saa_0002.jpg, OpenCV, 0.33554432, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adoor_Gopalakarishnan_0001.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adriana_Lima_0001.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adriana_Perez_Navarro_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrianna_Zuzic_0001.jpg, OpenCV, 0.23488103, error - no se encontraron ojos en la imagen, 1.0
+1º, Adrian_Annus_0001.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Fernandez_0001.jpg, OpenCV, 0.33554432, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_McPherson_0001.jpg, OpenCV, 0.1006633, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, Adrian_McPherson_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Murrell_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Nastase_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrian_Nastase_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0002.jpg, OpenCV, 0.50331646, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0003.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0004.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0005.jpg, OpenCV, 0.4026532, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0006.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0007.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0008.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0009.jpg, OpenCV, 0.36909875, error - no se encontraron ojos en la imagen, 1.0
+1º, Adrien_Brody_0010.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0011.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Adrien_Brody_0012.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Afton_Smith_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+1º, Agbani_Darego_0001.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Agnelo_Queiroz_0001.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+1º, Agnes_Bruckner_0001.jpg, OpenCV, 0.33554432, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmad_Jbarah_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmad_Masood_0001.jpg, OpenCV, 0.2013266, error - no se encontraron ojos en la imagen, 1.0
+1º, Ahmad_Masood_0002.jpg, OpenCV, 0.33554432, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Ahmed_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0003.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, Ahmed_Chalabi_0004.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+1º, BioID_0011.jpg, OpenCV, 0.43620762, 5.3851647, error - archivo incorrecto para Precision
+1º, BioID_0012.jpg, OpenCV, 0.57042533, 4.472136, error - archivo incorrecto para Precision
+1º, BioID_0013.jpg, OpenCV, 0.46976206, 6.708204, error - archivo incorrecto para Precision
+1º, BioID_0014.jpg, OpenCV, 0.36909875, 79.0, error - archivo incorrecto para Precision
+1º, BioID_0015.jpg, OpenCV, 0.4026532, 54.644306, error - archivo incorrecto para Precision
+1º, BioID_0016.jpg, OpenCV, 0.33554432, 3.0, error - archivo incorrecto para Precision
+1º, BioID_0017.jpg, OpenCV, 0.33554432, 4.1231055, error - archivo incorrecto para Precision
+1º, BioID_0018.jpg, OpenCV, 0.36909875, 7.0, error - archivo incorrecto para Precision
+1º, BioID_0019.jpg, OpenCV, 0.43620762, 4.1231055, error - archivo incorrecto para Precision
+1º, BioID_0020.jpg, OpenCV, 0.4026532, 3.0, error - archivo incorrecto para Precision
+1º, BioID_0021.jpg, OpenCV, 0.33554432, 4.1231055, error - archivo incorrecto para Precision
+1º, BioID_0022.jpg, OpenCV, 0.43620762, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0023.jpg, OpenCV, 0.43620762, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0024.jpg, OpenCV, 0.4026532, 3.6055512, error - archivo incorrecto para Precision
+1º, BioID_0025.jpg, OpenCV, 0.33554432, 5.0, error - archivo incorrecto para Precision
+1º, BioID_0026.jpg, OpenCV, 0.30198988, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0027.jpg, OpenCV, 0.36909875, 5.0990195, error - archivo incorrecto para Precision
+1º, BioID_0028.jpg, OpenCV, 0.33554432, 2.0, error - archivo incorrecto para Precision
+1º, BioID_0029.jpg, OpenCV, 0.6375342, 5.0990195, error - archivo incorrecto para Precision
+1º, BioID_0030.jpg, OpenCV, 0.36909875, 5.0990195, error - archivo incorrecto para Precision
+1º, BioID_0031.jpg, OpenCV, 0.33554432, 4.1231055, error - archivo incorrecto para Precision
+1º, BioID_0032.jpg, OpenCV, 0.50331646, 4.1231055, error - archivo incorrecto para Precision
+1º, BioID_0033.jpg, OpenCV, 0.5368709, 3.6055512, error - archivo incorrecto para Precision
+1º, BioID_0034.jpg, OpenCV, 0.4026532, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0035.jpg, OpenCV, 0.33554432, 4.1231055, error - archivo incorrecto para Precision
+1º, BioID_0036.jpg, OpenCV, 0.30198988, 2.236068, error - archivo incorrecto para Precision
+1º, BioID_0037.jpg, OpenCV, 0.30198988, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0038.jpg, OpenCV, 0.36909875, 5.0, error - archivo incorrecto para Precision
+1º, BioID_0039.jpg, OpenCV, 0.33554432, 3.0, error - archivo incorrecto para Precision
+1º, BioID_0040.jpg, OpenCV, 0.36909875, 35.608986, error - archivo incorrecto para Precision
+1º, BioID_0041.jpg, OpenCV, 0.33554432, 5.3851647, error - archivo incorrecto para Precision
+1º, BioID_0042.jpg, OpenCV, 0.30198988, 3.6055512, error - archivo incorrecto para Precision
+1º, BioID_0043.jpg, OpenCV, 0.36909875, 3.6055512, error - archivo incorrecto para Precision
+1º, BioID_0044.jpg, OpenCV, 0.4026532, 4.472136, error - archivo incorrecto para Precision
+1º, BioID_0045.jpg, OpenCV, 0.43620762, 5.0990195, error - archivo incorrecto para Precision
+1º, BioID_0046.jpg, OpenCV, 0.30198988, 9.055386, error - archivo incorrecto para Precision
+1º, BioID_0047.jpg, OpenCV, 0.36909875, 5.3851647, error - archivo incorrecto para Precision
+1º, BioID_0048.jpg, OpenCV, 0.33554432, 5.8309517, error - archivo incorrecto para Precision
+1º, BioID_0049.jpg, OpenCV, 0.43620762, 4.1231055, error - archivo incorrecto para Precision
+1º, BioID_0050.jpg, OpenCV, 0.60397977, 6.0, error - archivo incorrecto para Precision
+1º, BioID_0051.jpg, OpenCV, 0.67108864, 5.0, error - archivo incorrecto para Precision
+1º, BioID_0052.jpg, OpenCV, 0.43620762, 5.3851647, error - archivo incorrecto para Precision
+1º, BioID_0053.jpg, OpenCV, 0.1006633, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0054.jpg, OpenCV, 0.1006633, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0055.jpg, OpenCV, 0.43620762, 52.009613, error - archivo incorrecto para Precision
+1º, BioID_0056.jpg, OpenCV, 0.43620762, 3.6055512, error - archivo incorrecto para Precision
+1º, BioID_0057.jpg, OpenCV, 0.43620762, 7.28011, error - archivo incorrecto para Precision
+1º, BioID_0058.jpg, OpenCV, 0.43620762, 8.062258, error - archivo incorrecto para Precision
+1º, BioID_0059.jpg, OpenCV, 0.1006633, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0060.jpg, OpenCV, 0.1006633, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0061.jpg, OpenCV, 0.16777216, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0062.jpg, OpenCV, 0.46976206, 6.0827627, error - archivo incorrecto para Precision
+1º, BioID_0063.jpg, OpenCV, 0.36909875, 3.6055512, error - archivo incorrecto para Precision
+1º, BioID_0064.jpg, OpenCV, 0.50331646, 7.28011, error - archivo incorrecto para Precision
+1º, BioID_0065.jpg, OpenCV, 0.50331646, 5.0990195, error - archivo incorrecto para Precision
+1º, BioID_0066.jpg, OpenCV, 0.43620762, 7.071068, error - archivo incorrecto para Precision
+1º, BioID_0067.jpg, OpenCV, 0.4026532, 5.0990195, error - archivo incorrecto para Precision
+1º, BioID_0068.jpg, OpenCV, 0.4026532, 6.0827627, error - archivo incorrecto para Precision
+1º, BioID_0069.jpg, OpenCV, 0.43620762, 48.83646, error - archivo incorrecto para Precision
+1º, BioID_0070.jpg, OpenCV, 0.4026532, 8.0, error - archivo incorrecto para Precision
+1º, BioID_0071.jpg, OpenCV, 0.4026532, 7.0, error - archivo incorrecto para Precision
+1º, BioID_0072.jpg, OpenCV, 0.1006633, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+1º, BioID_0073.jpg, OpenCV, 0.4026532, 5.0990195, error - archivo incorrecto para Precision
+1º, BioID_0074.jpg, OpenCV, 0.60397977, 4.2426405, error - archivo incorrecto para Precision
+1º, BioID_0075.jpg, OpenCV, 0.46976206, 6.0827627, error - archivo incorrecto para Precision
+1º, BioID_0076.jpg, OpenCV, 0.43620762, 4.472136, error - archivo incorrecto para Precision
+1º, BioID_0077.jpg, OpenCV, 0.43620762, 4.1231055, error - archivo incorrecto para Precision
+1º, BioID_0078.jpg, OpenCV, 0.46976206, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0079.jpg, OpenCV, 0.43620762, 4.1231055, error - archivo incorrecto para Precision
+1º, BioID_0080.jpg, OpenCV, 0.43620762, 4.1231055, error - archivo incorrecto para Precision
+1º, BioID_0081.jpg, OpenCV, 0.36909875, 5.0, error - archivo incorrecto para Precision
+1º, BioID_0082.jpg, OpenCV, 0.43620762, 3.0, error - archivo incorrecto para Precision
+1º, BioID_0083.jpg, OpenCV, 0.4026532, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0084.jpg, OpenCV, 0.4026532, 3.0, error - archivo incorrecto para Precision
+1º, BioID_0085.jpg, OpenCV, 0.43620762, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0086.jpg, OpenCV, 0.4026532, 5.0, error - archivo incorrecto para Precision
+1º, BioID_0087.jpg, OpenCV, 0.36909875, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0088.jpg, OpenCV, 0.5368709, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0089.jpg, OpenCV, 0.4026532, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0090.jpg, OpenCV, 0.30198988, 13.152946, error - archivo incorrecto para Precision
+1º, BioID_0091.jpg, OpenCV, 0.26843545, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0092.jpg, OpenCV, 0.26843545, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0093.jpg, OpenCV, 0.30198988, 5.0, error - archivo incorrecto para Precision
+1º, BioID_0094.jpg, OpenCV, 0.46976206, 3.1622777, error - archivo incorrecto para Precision
+1º, BioID_0095.jpg, OpenCV, 0.30198988, 4.0, error - archivo incorrecto para Precision
+1º, BioID_0096.jpg, OpenCV, 0.30198988, 5.0990195, error - archivo incorrecto para Precision
+1º, BioID_0097.jpg, OpenCV, 0.33554432, 5.0, error - archivo incorrecto para Precision
+2º, Abdel_Nasser_Assidi_0001.jpg, FaceRect, 4.3956304, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdel_Nasser_Assidi_0002.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdoulaye_Wade_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdoulaye_Wade_0002.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdoulaye_Wade_0003.jpg, FaceRect, 0.8053064, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdoulaye_Wade_0004.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdulaziz_Kamilov_0001.jpg, FaceRect, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_0001.jpg, FaceRect, 0.87241524, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_0002.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_0003.jpg, FaceRect, 0.8388608, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_0004.jpg, FaceRect, 1.8790482, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Ahmad_Badawi_0001.jpg, FaceRect, 1.3086228, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_al-Attiyah_0001.jpg, FaceRect, 1.1072962, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, Abdullah_al-Attiyah_0002.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_al-Attiyah_0003.jpg, FaceRect, 1.6441672, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0002.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0003.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0004.jpg, FaceRect, 1.8454938, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0005.jpg, FaceRect, 1.5435039, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0006.jpg, FaceRect, 1.3421773, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0013.jpg, FaceRect, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0014.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0015.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0016.jpg, FaceRect, 0.9395241, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0017.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0018.jpg, FaceRect, 1.9126027, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0019.jpg, FaceRect, 1.6777216, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Nasseef_0001.jpg, FaceRect, 1.2750684, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullatif_Sener_0001.jpg, FaceRect, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullatif_Sener_0002.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdul_Majeed_Shobokshi_0001.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdul_Rahman_0001.jpg, FaceRect, 0.8388608, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abel_Aguilar_0001.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abel_Pacheco_0001.jpg, FaceRect, 1.8790482, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abel_Pacheco_0002.jpg, FaceRect, 1.4092861, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abel_Pacheco_0003.jpg, FaceRect, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abel_Pacheco_0004.jpg, FaceRect, 1.5099494, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abid_Hamid_Mahmud_Al-Tikriti_0002.jpg, FaceRect, 0.7381975, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, Abid_Hamid_Mahmud_Al-Tikriti_0003.jpg, FaceRect, 0.9059697, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abner_Martinez_0001.jpg, FaceRect, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abraham_Foxman_0001.jpg, FaceRect, 1.9126027, error - archivo incorrecto para Hausdorff, 1.0
+2º, Aby_Har-Even_0001.jpg, FaceRect, 1.6441672, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Ant_0001.jpg, FaceRect, 1.3086228, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Freier_0001.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Herbert_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Kennedy_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Mair_0001.jpg, FaceRect, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Rich_0001.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Sandler_0001.jpg, FaceRect, 0.8053064, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Sandler_0002.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Sandler_0003.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Sandler_0004.jpg, FaceRect, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Scott_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Scott_0002.jpg, FaceRect, 0.8388608, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adelina_Avila_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adel_Al-Jubeir_0001.jpg, FaceRect, 1.1744051, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adel_Al-Jubeir_0002.jpg, FaceRect, 0.8388608, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adel_Al-Jubeir_0003.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adisai_Bodharamik_0001.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adolfo_Aguilar_Zinser_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adolfo_Aguilar_Zinser_0002.jpg, FaceRect, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adolfo_Aguilar_Zinser_0003.jpg, FaceRect, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adolfo_Rodriguez_Saa_0001.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adolfo_Rodriguez_Saa_0002.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adoor_Gopalakarishnan_0001.jpg, FaceRect, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adriana_Lima_0001.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adriana_Perez_Navarro_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrianna_Zuzic_0001.jpg, FaceRect, 1.0737418, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_Annus_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_Fernandez_0001.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_McPherson_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_McPherson_0002.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_Murrell_0001.jpg, FaceRect, 0.77175194, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_Nastase_0001.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_Nastase_0002.jpg, FaceRect, 0.87241524, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0001.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0002.jpg, FaceRect, 1.2079595, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0003.jpg, FaceRect, 1.476395, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0004.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0005.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0006.jpg, FaceRect, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0007.jpg, FaceRect, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0008.jpg, FaceRect, 0.87241524, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0009.jpg, FaceRect, 0.87241524, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0010.jpg, FaceRect, 0.87241524, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0011.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0012.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+2º, Afton_Smith_0001.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+2º, Agbani_Darego_0001.jpg, FaceRect, 1.1408507, error - archivo incorrecto para Hausdorff, 1.0
+2º, Agnelo_Queiroz_0001.jpg, FaceRect, 0.8388608, error - archivo incorrecto para Hausdorff, 1.0
+2º, Agnes_Bruckner_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmad_Jbarah_0001.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmad_Masood_0001.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmad_Masood_0002.jpg, FaceRect, 0.97307855, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmed_Ahmed_0001.jpg, FaceRect, 1.0066329, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmed_Chalabi_0001.jpg, FaceRect, 1.1072962, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmed_Chalabi_0002.jpg, FaceRect, 0.9395241, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmed_Chalabi_0003.jpg, FaceRect, 0.8053064, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmed_Chalabi_0004.jpg, FaceRect, 1.0401874, error - archivo incorrecto para Hausdorff, 1.0
+2º, BioID_0011.jpg, FaceRect, 1.2079595, 3.0, error - archivo incorrecto para Precision
+2º, BioID_0012.jpg, FaceRect, 2.95279, 44.407207, error - archivo incorrecto para Precision
+2º, BioID_0013.jpg, FaceRect, 1.8790482, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0014.jpg, FaceRect, 1.3421773, 267.71066, error - archivo incorrecto para Precision
+2º, BioID_0015.jpg, FaceRect, 1.1744051, 264.57892, error - archivo incorrecto para Precision
+2º, BioID_0016.jpg, FaceRect, 1.1072962, 2.0, error - archivo incorrecto para Precision
+2º, BioID_0017.jpg, FaceRect, 1.0401874, 1.4142135, error - archivo incorrecto para Precision
+2º, BioID_0018.jpg, FaceRect, 1.1408507, 3.0, error - archivo incorrecto para Precision
+2º, BioID_0019.jpg, FaceRect, 1.2079595, 1.4142135, error - archivo incorrecto para Precision
+2º, BioID_0020.jpg, FaceRect, 1.1744051, 1.4142135, error - archivo incorrecto para Precision
+2º, BioID_0021.jpg, FaceRect, 1.1744051, 2.0, error - archivo incorrecto para Precision
+2º, BioID_0022.jpg, FaceRect, 1.1072962, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0023.jpg, FaceRect, 1.1072962, 2.0, error - archivo incorrecto para Precision
+2º, BioID_0024.jpg, FaceRect, 1.0737418, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0025.jpg, FaceRect, 1.0401874, 61.03278, error - archivo incorrecto para Precision
+2º, BioID_0026.jpg, FaceRect, 1.2079595, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0027.jpg, FaceRect, 1.0401874, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0028.jpg, FaceRect, 1.0737418, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0029.jpg, FaceRect, 1.0737418, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0030.jpg, FaceRect, 1.3421773, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0031.jpg, FaceRect, 1.4428406, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0032.jpg, FaceRect, 1.0066329, 57.035076, error - archivo incorrecto para Precision
+2º, BioID_0033.jpg, FaceRect, 1.1072962, 2.0, error - archivo incorrecto para Precision
+2º, BioID_0034.jpg, FaceRect, 1.0401874, 2.0, error - archivo incorrecto para Precision
+2º, BioID_0035.jpg, FaceRect, 1.0066329, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0036.jpg, FaceRect, 1.1408507, 1.4142135, error - archivo incorrecto para Precision
+2º, BioID_0037.jpg, FaceRect, 1.0401874, 1.4142135, error - archivo incorrecto para Precision
+2º, BioID_0038.jpg, FaceRect, 1.0066329, 1.0, error - archivo incorrecto para Precision
+2º, BioID_0039.jpg, FaceRect, 1.0401874, 1.0, error - archivo incorrecto para Precision
+2º, BioID_0040.jpg, FaceRect, 1.0066329, 259.62473, error - archivo incorrecto para Precision
+2º, BioID_0041.jpg, FaceRect, 1.1072962, 2.0, error - archivo incorrecto para Precision
+2º, BioID_0042.jpg, FaceRect, 1.1744051, 257.94766, error - archivo incorrecto para Precision
+2º, BioID_0043.jpg, FaceRect, 1.0737418, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0044.jpg, FaceRect, 1.1744051, 4.472136, error - archivo incorrecto para Precision
+2º, BioID_0045.jpg, FaceRect, 1.0737418, 2.0, error - archivo incorrecto para Precision
+2º, BioID_0046.jpg, FaceRect, 1.1408507, 263.18054, error - archivo incorrecto para Precision
+2º, BioID_0047.jpg, FaceRect, 1.1408507, 227.84424, error - archivo incorrecto para Precision
+2º, BioID_0048.jpg, FaceRect, 1.0737418, 65.00769, error - archivo incorrecto para Precision
+2º, BioID_0049.jpg, FaceRect, 1.2079595, 63.126858, error - archivo incorrecto para Precision
+2º, BioID_0050.jpg, FaceRect, 1.1408507, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0051.jpg, FaceRect, 1.1408507, 77.0, error - archivo incorrecto para Precision
+2º, BioID_0052.jpg, FaceRect, 1.3086228, 1.4142135, error - archivo incorrecto para Precision
+2º, BioID_0053.jpg, FaceRect, 1.0737418, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0054.jpg, FaceRect, 0.97307855, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0055.jpg, FaceRect, 1.0401874, 250.14595, error - archivo incorrecto para Precision
+2º, BioID_0056.jpg, FaceRect, 1.1408507, 5.0990195, error - archivo incorrecto para Precision
+2º, BioID_0057.jpg, FaceRect, 1.1072962, 2.828427, error - archivo incorrecto para Precision
+2º, BioID_0058.jpg, FaceRect, 1.0737418, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0059.jpg, FaceRect, 0.9395241, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0060.jpg, FaceRect, 0.9395241, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0061.jpg, FaceRect, 0.9395241, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0062.jpg, FaceRect, 1.1744051, 3.0, error - archivo incorrecto para Precision
+2º, BioID_0063.jpg, FaceRect, 1.5435039, 252.93675, error - archivo incorrecto para Precision
+2º, BioID_0064.jpg, FaceRect, 1.0737418, 2.0, error - archivo incorrecto para Precision
+2º, BioID_0065.jpg, FaceRect, 1.0737418, 2.828427, error - archivo incorrecto para Precision
+2º, BioID_0066.jpg, FaceRect, 1.0737418, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0067.jpg, FaceRect, 1.0401874, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0068.jpg, FaceRect, 1.0737418, 82.006096, error - archivo incorrecto para Precision
+2º, BioID_0069.jpg, FaceRect, 1.0737418, 254.80385, error - archivo incorrecto para Precision
+2º, BioID_0070.jpg, FaceRect, 1.1408507, 275.6175, error - archivo incorrecto para Precision
+2º, BioID_0071.jpg, FaceRect, 1.1408507, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0072.jpg, FaceRect, 1.0066329, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0073.jpg, FaceRect, 1.1072962, 251.18121, error - archivo incorrecto para Precision
+2º, BioID_0074.jpg, FaceRect, 1.2079595, 253.94684, error - archivo incorrecto para Precision
+2º, BioID_0075.jpg, FaceRect, 1.1408507, 3.0, error - archivo incorrecto para Precision
+2º, BioID_0076.jpg, FaceRect, 1.1072962, 3.6055512, error - archivo incorrecto para Precision
+2º, BioID_0077.jpg, FaceRect, 1.0737418, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0078.jpg, FaceRect, 1.0401874, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0079.jpg, FaceRect, 1.1744051, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0080.jpg, FaceRect, 1.0401874, 87.28116, error - archivo incorrecto para Precision
+2º, BioID_0081.jpg, FaceRect, 1.0737418, 81.154175, error - archivo incorrecto para Precision
+2º, BioID_0082.jpg, FaceRect, 1.0066329, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0083.jpg, FaceRect, 0.97307855, 258.58847, error - archivo incorrecto para Precision
+2º, BioID_0084.jpg, FaceRect, 1.1072962, 86.05231, error - archivo incorrecto para Precision
+2º, BioID_0085.jpg, FaceRect, 1.0401874, 269.65164, error - archivo incorrecto para Precision
+2º, BioID_0086.jpg, FaceRect, 1.0737418, 3.6055512, error - archivo incorrecto para Precision
+2º, BioID_0087.jpg, FaceRect, 1.0737418, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0088.jpg, FaceRect, 1.0401874, 6.4031243, error - archivo incorrecto para Precision
+2º, BioID_0089.jpg, FaceRect, 1.1072962, 85.09406, error - archivo incorrecto para Precision
+2º, BioID_0090.jpg, FaceRect, 1.0737418, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0091.jpg, FaceRect, 1.1072962, 1.4142135, error - archivo incorrecto para Precision
+2º, BioID_0092.jpg, FaceRect, 1.1744051, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0093.jpg, FaceRect, 1.1744051, 1.4142135, error - archivo incorrecto para Precision
+2º, BioID_0094.jpg, FaceRect, 1.0066329, 7.071068, error - archivo incorrecto para Precision
+2º, BioID_0095.jpg, FaceRect, 1.0066329, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0096.jpg, FaceRect, 1.0066329, 2.0, error - archivo incorrecto para Precision
+2º, BioID_0097.jpg, FaceRect, 1.0401874, 59.03389, error - archivo incorrecto para Precision
+2º, Abdel_Nasser_Assidi_0001.jpg, SkyBiometry, 3.8252053, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdel_Nasser_Assidi_0002.jpg, SkyBiometry, 0.97307855, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdoulaye_Wade_0001.jpg, SkyBiometry, 0.9059697, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdoulaye_Wade_0002.jpg, SkyBiometry, 1.6777216, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdoulaye_Wade_0003.jpg, SkyBiometry, 0.7046431, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdoulaye_Wade_0004.jpg, SkyBiometry, 1.1072962, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdulaziz_Kamilov_0001.jpg, SkyBiometry, 1.1744051, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_0001.jpg, SkyBiometry, 0.8388608, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_0002.jpg, SkyBiometry, 1.1744051, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_0003.jpg, SkyBiometry, 0.8053064, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_0004.jpg, SkyBiometry, 1.1408507, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Ahmad_Badawi_0001.jpg, SkyBiometry, 1.241514, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_al-Attiyah_0001.jpg, SkyBiometry, 1.1408507, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_al-Attiyah_0002.jpg, SkyBiometry, 1.1408507, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_al-Attiyah_0003.jpg, SkyBiometry, 1.0737418, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0001.jpg, SkyBiometry, 1.0401874, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0002.jpg, SkyBiometry, 1.9461571, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0003.jpg, SkyBiometry, 1.711276, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0004.jpg, SkyBiometry, 1.8454938, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0005.jpg, SkyBiometry, 0.9395241, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0006.jpg, SkyBiometry, 1.1408507, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0013.jpg, SkyBiometry, 1.4428406, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0014.jpg, SkyBiometry, 0.8388608, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0015.jpg, SkyBiometry, 0.97307855, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0016.jpg, SkyBiometry, 0.9395241, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0017.jpg, SkyBiometry, 0.87241524, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0018.jpg, SkyBiometry, 0.97307855, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Gul_0019.jpg, SkyBiometry, 0.9395241, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullah_Nasseef_0001.jpg, SkyBiometry, 0.9395241, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullatif_Sener_0001.jpg, SkyBiometry, 0.7381975, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdullatif_Sener_0002.jpg, SkyBiometry, 0.97307855, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdul_Majeed_Shobokshi_0001.jpg, SkyBiometry, 0.9059697, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdul_Rahman_0001.jpg, SkyBiometry, 0.7046431, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abel_Aguilar_0001.jpg, SkyBiometry, 0.8388608, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abel_Pacheco_0001.jpg, SkyBiometry, 1.0401874, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abel_Pacheco_0002.jpg, SkyBiometry, 0.8388608, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abel_Pacheco_0003.jpg, SkyBiometry, 0.7381975, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abel_Pacheco_0004.jpg, SkyBiometry, 1.0737418, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg, SkyBiometry, 0.77175194, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abid_Hamid_Mahmud_Al-Tikriti_0002.jpg, SkyBiometry, 0.8053064, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abid_Hamid_Mahmud_Al-Tikriti_0003.jpg, SkyBiometry, 0.9395241, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abner_Martinez_0001.jpg, SkyBiometry, 1.6441672, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abraham_Foxman_0001.jpg, SkyBiometry, 1.0737418, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Aby_Har-Even_0001.jpg, SkyBiometry, 1.2750684, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Ant_0001.jpg, SkyBiometry, 1.0737418, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Freier_0001.jpg, SkyBiometry, 2.3823647, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Herbert_0001.jpg, SkyBiometry, 0.8053064, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Kennedy_0001.jpg, SkyBiometry, 1.0066329, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Mair_0001.jpg, SkyBiometry, 0.9059697, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Rich_0001.jpg, SkyBiometry, 1.1744051, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Sandler_0001.jpg, SkyBiometry, 0.97307855, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Sandler_0002.jpg, SkyBiometry, 0.9395241, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Sandler_0003.jpg, SkyBiometry, 0.97307855, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Sandler_0004.jpg, SkyBiometry, 1.0066329, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Scott_0001.jpg, SkyBiometry, 1.0066329, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adam_Scott_0002.jpg, SkyBiometry, 1.3421773, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adelina_Avila_0001.jpg, SkyBiometry, 1.0066329, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adel_Al-Jubeir_0001.jpg, SkyBiometry, 0.9059697, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adel_Al-Jubeir_0002.jpg, SkyBiometry, 0.67108864, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adel_Al-Jubeir_0003.jpg, SkyBiometry, 0.8388608, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adisai_Bodharamik_0001.jpg, SkyBiometry, 1.0066329, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adolfo_Aguilar_Zinser_0001.jpg, SkyBiometry, 0.9059697, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adolfo_Aguilar_Zinser_0002.jpg, SkyBiometry, 1.0066329, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adolfo_Aguilar_Zinser_0003.jpg, SkyBiometry, 1.0066329, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adolfo_Rodriguez_Saa_0001.jpg, SkyBiometry, 1.1072962, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adolfo_Rodriguez_Saa_0002.jpg, SkyBiometry, 1.2079595, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adoor_Gopalakarishnan_0001.jpg, SkyBiometry, 1.2079595, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adriana_Lima_0001.jpg, SkyBiometry, 1.0066329, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adriana_Perez_Navarro_0001.jpg, SkyBiometry, 0.9395241, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrianna_Zuzic_0001.jpg, SkyBiometry, 1.0066329, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrian_Annus_0001.jpg, SkyBiometry, 1.3757317, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrian_Fernandez_0001.jpg, SkyBiometry, 1.0737418, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrian_McPherson_0001.jpg, SkyBiometry, 1.0737418, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrian_McPherson_0002.jpg, SkyBiometry, 1.3421773, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrian_Murrell_0001.jpg, SkyBiometry, 0.8388608, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrian_Nastase_0001.jpg, SkyBiometry, 0.8053064, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrian_Nastase_0002.jpg, SkyBiometry, 0.8388608, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0001.jpg, SkyBiometry, 0.97307855, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0002.jpg, SkyBiometry, 0.97307855, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0003.jpg, SkyBiometry, 1.1072962, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0004.jpg, SkyBiometry, 1.5770583, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0005.jpg, SkyBiometry, 0.87241524, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0006.jpg, SkyBiometry, 1.4428406, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0007.jpg, SkyBiometry, 0.87241524, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0008.jpg, SkyBiometry, 0.8053064, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0009.jpg, SkyBiometry, 0.7046431, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0010.jpg, SkyBiometry, 0.67108864, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0011.jpg, SkyBiometry, 0.9059697, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Adrien_Brody_0012.jpg, SkyBiometry, 0.9059697, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Afton_Smith_0001.jpg, SkyBiometry, 0.77175194, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Agbani_Darego_0001.jpg, SkyBiometry, 0.87241524, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Agnelo_Queiroz_0001.jpg, SkyBiometry, 1.6106128, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Agnes_Bruckner_0001.jpg, SkyBiometry, 0.97307855, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Ahmad_Jbarah_0001.jpg, SkyBiometry, 0.9395241, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Ahmad_Masood_0001.jpg, SkyBiometry, 1.1072962, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Ahmad_Masood_0002.jpg, SkyBiometry, 0.87241524, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Ahmed_Ahmed_0001.jpg, SkyBiometry, 1.0066329, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Ahmed_Chalabi_0001.jpg, SkyBiometry, 0.9059697, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Ahmed_Chalabi_0002.jpg, SkyBiometry, 0.9395241, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Ahmed_Chalabi_0003.jpg, SkyBiometry, 1.1072962, error - en la respuesta del servicio: 400, error - no se encontraron caras en la imagen
+2º, Abdel_Nasser_Assidi_0001.jpg, OpenCV, 0.5368709, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdel_Nasser_Assidi_0002.jpg, OpenCV, 0.06710886, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, Abdoulaye_Wade_0001.jpg, OpenCV, 0.5368709, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdoulaye_Wade_0002.jpg, OpenCV, 0.43620762, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdoulaye_Wade_0003.jpg, OpenCV, 0.26843545, error - no se encontraron ojos en la imagen, 1.0
+2º, Abdoulaye_Wade_0004.jpg, OpenCV, 0.30198988, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdulaziz_Kamilov_0001.jpg, OpenCV, 0.5368709, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_0003.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_0004.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Ahmad_Badawi_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_al-Attiyah_0001.jpg, OpenCV, 0.06710886, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, Abdullah_al-Attiyah_0002.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_al-Attiyah_0003.jpg, OpenCV, 0.4026532, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0001.jpg, OpenCV, 0.30198988, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0002.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0003.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0004.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0005.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0006.jpg, OpenCV, 0.5368709, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0013.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0014.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0015.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0016.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Gul_0017.jpg, OpenCV, 0.23488103, error - no se encontraron ojos en la imagen, 1.0
+2º, Abdullah_Gul_0018.jpg, OpenCV, 0.23488103, error - no se encontraron ojos en la imagen, 1.0
+2º, Abdullah_Gul_0019.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullah_Nasseef_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullatif_Sener_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdullatif_Sener_0002.jpg, OpenCV, 0.30198988, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdul_Majeed_Shobokshi_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abdul_Rahman_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abel_Aguilar_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abel_Pacheco_0001.jpg, OpenCV, 0.4026532, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abel_Pacheco_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abel_Pacheco_0003.jpg, OpenCV, 0.36909875, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abel_Pacheco_0004.jpg, OpenCV, 0.30198988, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abid_Hamid_Mahmud_Al-Tikriti_0002.jpg, OpenCV, 0.30198988, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abid_Hamid_Mahmud_Al-Tikriti_0003.jpg, OpenCV, 0.4026532, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abner_Martinez_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Abraham_Foxman_0001.jpg, OpenCV, 0.36909875, error - archivo incorrecto para Hausdorff, 1.0
+2º, Aby_Har-Even_0001.jpg, OpenCV, 0.26843545, error - no se encontraron ojos en la imagen, 1.0
+2º, Adam_Ant_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Freier_0001.jpg, OpenCV, 0.06710886, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, Adam_Herbert_0001.jpg, OpenCV, 0.23488103, error - no se encontraron ojos en la imagen, 1.0
+2º, Adam_Kennedy_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Mair_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Rich_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Sandler_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Sandler_0002.jpg, OpenCV, 0.46976206, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Sandler_0003.jpg, OpenCV, 0.33554432, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Sandler_0004.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adam_Scott_0001.jpg, OpenCV, 0.06710886, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, Adam_Scott_0002.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adelina_Avila_0001.jpg, OpenCV, 0.26843545, error - no se encontraron ojos en la imagen, 1.0
+2º, Adel_Al-Jubeir_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adel_Al-Jubeir_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adel_Al-Jubeir_0003.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adisai_Bodharamik_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adolfo_Aguilar_Zinser_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adolfo_Aguilar_Zinser_0002.jpg, OpenCV, 0.4026532, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adolfo_Aguilar_Zinser_0003.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adolfo_Rodriguez_Saa_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adolfo_Rodriguez_Saa_0002.jpg, OpenCV, 0.4026532, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adoor_Gopalakarishnan_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adriana_Lima_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adriana_Perez_Navarro_0001.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrianna_Zuzic_0001.jpg, OpenCV, 0.26843545, error - no se encontraron ojos en la imagen, 1.0
+2º, Adrian_Annus_0001.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_Fernandez_0001.jpg, OpenCV, 0.36909875, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_McPherson_0001.jpg, OpenCV, 0.06710886, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, Adrian_McPherson_0002.jpg, OpenCV, 0.33554432, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_Murrell_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_Nastase_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrian_Nastase_0002.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0002.jpg, OpenCV, 0.33554432, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0003.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0004.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0005.jpg, OpenCV, 0.36909875, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0006.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0007.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0008.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0009.jpg, OpenCV, 0.36909875, error - no se encontraron ojos en la imagen, 1.0
+2º, Adrien_Brody_0010.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0011.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Adrien_Brody_0012.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Afton_Smith_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Agbani_Darego_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Agnelo_Queiroz_0001.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+2º, Agnes_Bruckner_0001.jpg, OpenCV, 0.4026532, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmad_Jbarah_0001.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmad_Masood_0001.jpg, OpenCV, 0.23488103, error - no se encontraron ojos en la imagen, 1.0
+2º, Ahmad_Masood_0002.jpg, OpenCV, 0.33554432, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmed_Ahmed_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmed_Chalabi_0001.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmed_Chalabi_0002.jpg, OpenCV, 0.26843545, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmed_Chalabi_0003.jpg, OpenCV, 0.23488103, error - archivo incorrecto para Hausdorff, 1.0
+2º, Ahmed_Chalabi_0004.jpg, OpenCV, 0.2013266, error - archivo incorrecto para Hausdorff, 1.0
+2º, BioID_0011.jpg, OpenCV, 0.43620762, 5.3851647, error - archivo incorrecto para Precision
+2º, BioID_0012.jpg, OpenCV, 0.60397977, 4.472136, error - archivo incorrecto para Precision
+2º, BioID_0013.jpg, OpenCV, 0.43620762, 6.708204, error - archivo incorrecto para Precision
+2º, BioID_0014.jpg, OpenCV, 0.36909875, 79.0, error - archivo incorrecto para Precision
+2º, BioID_0015.jpg, OpenCV, 0.43620762, 54.644306, error - archivo incorrecto para Precision
+2º, BioID_0016.jpg, OpenCV, 0.36909875, 3.0, error - archivo incorrecto para Precision
+2º, BioID_0017.jpg, OpenCV, 0.36909875, 4.1231055, error - archivo incorrecto para Precision
+2º, BioID_0018.jpg, OpenCV, 0.4026532, 7.0, error - archivo incorrecto para Precision
+2º, BioID_0019.jpg, OpenCV, 0.4026532, 4.1231055, error - archivo incorrecto para Precision
+2º, BioID_0020.jpg, OpenCV, 0.4026532, 3.0, error - archivo incorrecto para Precision
+2º, BioID_0021.jpg, OpenCV, 0.36909875, 4.1231055, error - archivo incorrecto para Precision
+2º, BioID_0022.jpg, OpenCV, 0.36909875, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0023.jpg, OpenCV, 0.4026532, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0024.jpg, OpenCV, 0.46976206, 3.6055512, error - archivo incorrecto para Precision
+2º, BioID_0025.jpg, OpenCV, 0.36909875, 5.0, error - archivo incorrecto para Precision
+2º, BioID_0026.jpg, OpenCV, 0.33554432, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0027.jpg, OpenCV, 0.36909875, 5.0990195, error - archivo incorrecto para Precision
+2º, BioID_0028.jpg, OpenCV, 0.36909875, 2.0, error - archivo incorrecto para Precision
+2º, BioID_0029.jpg, OpenCV, 0.4026532, 5.0990195, error - archivo incorrecto para Precision
+2º, BioID_0030.jpg, OpenCV, 0.36909875, 5.0990195, error - archivo incorrecto para Precision
+2º, BioID_0031.jpg, OpenCV, 0.46976206, 4.1231055, error - archivo incorrecto para Precision
+2º, BioID_0032.jpg, OpenCV, 0.36909875, 4.1231055, error - archivo incorrecto para Precision
+2º, BioID_0033.jpg, OpenCV, 0.46976206, 3.6055512, error - archivo incorrecto para Precision
+2º, BioID_0034.jpg, OpenCV, 0.33554432, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0035.jpg, OpenCV, 0.36909875, 4.1231055, error - archivo incorrecto para Precision
+2º, BioID_0036.jpg, OpenCV, 0.36909875, 2.236068, error - archivo incorrecto para Precision
+2º, BioID_0037.jpg, OpenCV, 0.33554432, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0038.jpg, OpenCV, 0.36909875, 5.0, error - archivo incorrecto para Precision
+2º, BioID_0039.jpg, OpenCV, 0.33554432, 3.0, error - archivo incorrecto para Precision
+2º, BioID_0040.jpg, OpenCV, 0.33554432, 35.608986, error - archivo incorrecto para Precision
+2º, BioID_0041.jpg, OpenCV, 0.36909875, 5.3851647, error - archivo incorrecto para Precision
+2º, BioID_0042.jpg, OpenCV, 0.36909875, 3.6055512, error - archivo incorrecto para Precision
+2º, BioID_0043.jpg, OpenCV, 0.33554432, 3.6055512, error - archivo incorrecto para Precision
+2º, BioID_0044.jpg, OpenCV, 0.36909875, 4.472136, error - archivo incorrecto para Precision
+2º, BioID_0045.jpg, OpenCV, 0.33554432, 5.0990195, error - archivo incorrecto para Precision
+2º, BioID_0046.jpg, OpenCV, 0.33554432, 9.055386, error - archivo incorrecto para Precision
+2º, BioID_0047.jpg, OpenCV, 0.36909875, 5.3851647, error - archivo incorrecto para Precision
+2º, BioID_0048.jpg, OpenCV, 0.36909875, 5.8309517, error - archivo incorrecto para Precision
+2º, BioID_0049.jpg, OpenCV, 0.33554432, 4.1231055, error - archivo incorrecto para Precision
+2º, BioID_0050.jpg, OpenCV, 0.57042533, 6.0, error - archivo incorrecto para Precision
+2º, BioID_0051.jpg, OpenCV, 1.6777216, 5.0, error - archivo incorrecto para Precision
+2º, BioID_0052.jpg, OpenCV, 0.8053064, 5.3851647, error - archivo incorrecto para Precision
+2º, BioID_0053.jpg, OpenCV, 0.7046431, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0054.jpg, OpenCV, 0.33554432, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0055.jpg, OpenCV, 0.6375342, 52.009613, error - archivo incorrecto para Precision
+2º, BioID_0056.jpg, OpenCV, 0.60397977, 3.6055512, error - archivo incorrecto para Precision
+2º, BioID_0057.jpg, OpenCV, 0.77175194, 7.28011, error - archivo incorrecto para Precision
+2º, BioID_0058.jpg, OpenCV, 1.4092861, 8.062258, error - archivo incorrecto para Precision
+2º, BioID_0059.jpg, OpenCV, 0.43620762, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0060.jpg, OpenCV, 0.26843545, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0061.jpg, OpenCV, 0.23488103, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0062.jpg, OpenCV, 0.60397977, 6.0827627, error - archivo incorrecto para Precision
+2º, BioID_0063.jpg, OpenCV, 0.7381975, 3.6055512, error - archivo incorrecto para Precision
+2º, BioID_0064.jpg, OpenCV, 0.67108864, 7.28011, error - archivo incorrecto para Precision
+2º, BioID_0065.jpg, OpenCV, 1.0066329, 5.0990195, error - archivo incorrecto para Precision
+2º, BioID_0066.jpg, OpenCV, 0.67108864, 7.071068, error - archivo incorrecto para Precision
+2º, BioID_0067.jpg, OpenCV, 0.8053064, 5.0990195, error - archivo incorrecto para Precision
+2º, BioID_0068.jpg, OpenCV, 1.3421773, 6.0827627, error - archivo incorrecto para Precision
+2º, BioID_0069.jpg, OpenCV, 0.9059697, 48.83646, error - archivo incorrecto para Precision
+2º, BioID_0070.jpg, OpenCV, 0.9059697, 8.0, error - archivo incorrecto para Precision
+2º, BioID_0071.jpg, OpenCV, 0.5368709, 7.0, error - archivo incorrecto para Precision
+2º, BioID_0072.jpg, OpenCV, 0.2013266, error - no se encontraron caras en la imagen, error - no se encontraron caras en la imagen
+2º, BioID_0073.jpg, OpenCV, 0.50331646, 5.0990195, error - archivo incorrecto para Precision
+2º, BioID_0074.jpg, OpenCV, 0.5368709, 4.2426405, error - archivo incorrecto para Precision
+2º, BioID_0075.jpg, OpenCV, 0.60397977, 6.0827627, error - archivo incorrecto para Precision
+2º, BioID_0076.jpg, OpenCV, 0.5368709, 4.472136, error - archivo incorrecto para Precision
+2º, BioID_0077.jpg, OpenCV, 0.9059697, 4.1231055, error - archivo incorrecto para Precision
+2º, BioID_0078.jpg, OpenCV, 0.67108864, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0079.jpg, OpenCV, 0.57042533, 4.1231055, error - archivo incorrecto para Precision
+2º, BioID_0080.jpg, OpenCV, 0.46976206, 4.1231055, error - archivo incorrecto para Precision
+2º, BioID_0081.jpg, OpenCV, 0.43620762, 5.0, error - archivo incorrecto para Precision
+2º, BioID_0082.jpg, OpenCV, 0.5368709, 3.0, error - archivo incorrecto para Precision
+2º, BioID_0083.jpg, OpenCV, 0.5368709, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0084.jpg, OpenCV, 0.4026532, 3.0, error - archivo incorrecto para Precision
+2º, BioID_0085.jpg, OpenCV, 0.4026532, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0086.jpg, OpenCV, 0.43620762, 5.0, error - archivo incorrecto para Precision
+2º, BioID_0087.jpg, OpenCV, 0.4026532, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0088.jpg, OpenCV, 0.5368709, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0089.jpg, OpenCV, 0.5368709, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0090.jpg, OpenCV, 0.36909875, 13.152946, error - archivo incorrecto para Precision
+2º, BioID_0091.jpg, OpenCV, 0.33554432, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0092.jpg, OpenCV, 0.33554432, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0093.jpg, OpenCV, 0.33554432, 5.0, error - archivo incorrecto para Precision
+2º, BioID_0094.jpg, OpenCV, 0.33554432, 3.1622777, error - archivo incorrecto para Precision
+2º, BioID_0095.jpg, OpenCV, 0.33554432, 4.0, error - archivo incorrecto para Precision
+2º, BioID_0096.jpg, OpenCV, 0.30198988, 5.0990195, error - archivo incorrecto para Precision
+2º, BioID_0097.jpg, OpenCV, 0.33554432, 5.0, error - archivo incorrecto para Precision

@@ -5,7 +5,7 @@ import Servicies.ImageProc;
 
 public abstract class AbsMetric {
 	
-	public abstract float getDato(AbsService service, ImageProc image) throws Exception;
+	public abstract Object getDato(AbsService service, ImageProc image);
 	
 	public abstract String getName(); 
 	

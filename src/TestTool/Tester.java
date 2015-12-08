@@ -21,7 +21,10 @@ public class Tester {
 		PrintWriter writer;
 		String workingDir = System.getProperty("user.dir");
 		for (AbsMetric m : ParserPlan.metricsMet) {
-			title += ", "+m.getName() + " (in " + m.getMedida() + "s)";
+			if (m.getMedida() != null)
+				title += ", " + m.getName() + " (in " + m.getMedida() + "s)";
+			else
+				title += ", " + m.getName();
 		}
 		try {
 			writer = new PrintWriter(workingDir + "\\result.csv", "UTF-8");
@@ -36,14 +39,13 @@ public class Tester {
 					for (String sD : ParserPlan.imagesDir) {
 						File fD = new File(sD);
 						File[] fArray = null;
-						if (s.getLimRequest()==-1){
-							fArray=fD.listFiles();
-						}
-						else{
-							File[] aux=fD.listFiles();
-							fArray=new File[s.getLimRequest()];
-							for (int j=0; j<s.getLimRequest(); j++){
-								fArray[j]=aux[j];
+						if (s.getLimRequest() == -1) {
+							fArray = fD.listFiles();
+						} else {
+							File[] aux = fD.listFiles();
+							fArray = new File[s.getLimRequest()];
+							for (int j = 0; j < s.getLimRequest(); j++) {
+								fArray[j] = aux[j];
 							}
 						}
 						for (File fI : fArray) {
@@ -51,22 +53,27 @@ public class Tester {
 								ImageProc im = s.getFaceRecognition(fI,
 										ParserPlan.atributos);
 								String line = new String();
-								Path p=Paths.get(im.getFile_path());
-								String name= p.getFileName().toString();
-								line = i+1 + "º, "
-										+ name + ", "
+								Path p = Paths.get(im.getFile_path());
+								String name = p.getFileName().toString();
+								line = i + 1 + "º, " + name + ", "
 										+ s.getName();
 								for (AbsMetric m : ParserPlan.metricsMet) {
 									try {
-										float dato=m.getDato(s, im);
-										if (dato>0){
-										line+=", "+m.getDato(s, im);}
-										else
-											line+=", error - "+ errors(dato);
-										//System.out.println(m.getDato(s, im));
-									} catch (Exception e) {
+										float dato = (float) m.getDato(s, im);
+										if (dato > 0) {
+											line += ", " + dato;
+										} else
+											line += ", error - " + errors(dato,im);
+									} catch (ClassCastException e) {
 										// TODO Auto-generated catch block
-										e.printStackTrace();
+										try {
+											String dato = (String) m.getDato(s,
+													im);
+											line += ", " + dato;
+										} catch (ClassCastException e1) {
+											// TODO Auto-generated catch block
+											e1.printStackTrace();
+										}
 									}
 								}
 								System.out.println(fI.getAbsolutePath());
@@ -83,15 +90,18 @@ public class Tester {
 		}
 	}
 
-	private static String errors(float dato) {
-		if (dato==-1){
+	private static String errors(float dato, ImageProc im) {
+		if (dato == -1) {
 			return "archivo incorrecto para Hausdorff";
 		}
-		if (dato==-2){
+		if (dato == -2) {
 			return "no se encontraron ojos en la imagen";
 		}
-		if (dato==-3){
+		if (dato == -3) {
 			return "no se encontraron caras en la imagen";
+		}
+		if (dato == -5) {
+			return "en la respuesta del servicio: "+im.getError();
 		}
 		return "archivo incorrecto para Precision";
 	}

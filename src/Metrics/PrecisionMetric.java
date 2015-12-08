@@ -76,7 +76,7 @@ public class PrecisionMetric extends AbsMetric {
 	// -------Fin de metodos de creación del dataset-----------
 
 	@Override
-	public float getDato(AbsService service, ImageProc image) {
+	public Object getDato(AbsService service, ImageProc image) {
 		// TODO Auto-generated method stub
 		Path file_path = FileSystems.getDefault().getPath(image.getFile_path());
 		Path file_name = file_path.getFileName();
@@ -93,18 +93,25 @@ public class PrecisionMetric extends AbsMetric {
 						ENCODING);
 				String line = reader.readLine();
 				if (line != null) {
-					Integer p=image.getFaces().size();
+					Integer p = image.getFaces().size();
 					Integer tp = new Integer(line);
-					Integer fp = new Integer(Math.abs(p-tp));
-					return (float)tp  / (float) (tp+fp);
+					if (p < tp) {
+						tp = p;
+					}
+					Integer fp;
+					if (p < tp) {
+						fp = new Integer(p - tp);
+					} else
+						fp = 0;
+					return (float) tp / (float) (tp + fp);
 				}
 			} else
-				return -3;
+				return (float) -3;
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			return -4;
+			return (float) -4;
 		}
-		return 0;
+		return (float) 0;
 	}
 
 	@Override

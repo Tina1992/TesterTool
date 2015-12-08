@@ -6,7 +6,7 @@ import Servicies.ImageProc;
 public class ResponseTimeMetric extends AbsMetric {
 
 	@Override
-	public float getDato(AbsService service, ImageProc image) {
+	public Object getDato(AbsService service, ImageProc image) {
 		return service.getResponseTime();
 	}
 

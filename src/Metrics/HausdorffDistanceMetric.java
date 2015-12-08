@@ -99,8 +99,9 @@ public class HausdorffDistanceMetric extends AbsMetric {
 	}
 
 	@Override
-	public float getDato(AbsService service, ImageProc image) {
+	public Object getDato(AbsService service, ImageProc image) {
 		// TODO Auto-generated method stub
+		if (image.getError()==null){
 		if (image.getFaces() != null) {
 			if (image.getEyesPoints() != null) {
 				Path file_path = FileSystems.getDefault().getPath(
@@ -124,16 +125,18 @@ public class HausdorffDistanceMetric extends AbsMetric {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					} catch (IOException e) {
-						return -1;
+						return (float)-1;
 					} // Obtenemos los x's e y's del archivo Eyepos/nombredelaimage.txt
 				}
 				else
-					return -2;
+					return (float)-2;
 			} else {
-				return -3;
-			}
-		return 0;
-
+				return (float)-3;
+			}}
+		else{
+			return (float)-5;
+		}
+		return (float)0;
 	}
 
 	@Override

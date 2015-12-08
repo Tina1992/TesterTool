@@ -1,5 +1,6 @@
 package TestTool;
 
+import java.awt.Cursor;
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.Image;
@@ -11,7 +12,7 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
-import javax.swing.JFormattedTextField;
+import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -26,6 +27,7 @@ import java.awt.event.MouseEvent;
 
 //AÑADIR: CAMPOS OBLIGATORIOS, POSIBILIDAD DE MAS DE UN DIRECTORIO. 
 
+@SuppressWarnings("serial")
 public class UI extends JFrame {
 
 	private JPanel contentPane;
@@ -161,8 +163,6 @@ public class UI extends JFrame {
 		checkBox_Precision.setBounds(227, 119, 161, 31);
 		contentPane.add(checkBox_Precision);
 
-		JFormattedTextField restriccion = new JFormattedTextField(
-				new Integer(3));
 		ExecPerImage = new JTextField();
 		ExecPerImage.setBounds(347, 360, 91, 26);
 		contentPane.add(ExecPerImage);
@@ -184,7 +184,7 @@ public class UI extends JFrame {
 		btnDone.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				// ARMADO DEL PLANTEST
-
+				createXML = new CreateXML();
 				// ----------------------------OPCIONES-----------------------------
 				if (checkBox_Smile.isSelected()) {
 					createXML.addAtributo("Smile", true);
@@ -250,7 +250,7 @@ public class UI extends JFrame {
 				}
 
 				if (checkBox_Googleplay.isSelected()) {
-					createXML.addProviders("Googleplay");
+					createXML.addProviders("GooglePlay");
 				}
 				
 				if (!(checkBox_FaceRect.isSelected())&&!(checkBox_SkyBiometry.isSelected())&&!(checkBox_Opencv.isSelected())&&!(checkBox_Googleplay.isSelected()))
@@ -322,10 +322,11 @@ public class UI extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				if (planCreado){
 				String workingDir = System.getProperty("user.dir");
+				UI.this.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
 				Tester.test(workingDir + "\\"+NombreArchivo.getText()+".xml");
 				JPanel panel = new JPanel();
 				JOptionPane.showMessageDialog(panel, "Se terminó la ejecución del testing", "", JOptionPane.INFORMATION_MESSAGE);
-				UI.this.setVisible(true);
+				UI.this.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
 				}
 				else
 				{
@@ -334,14 +335,7 @@ public class UI extends JFrame {
 				 }
 			}
 		});
-		btnExecute.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-
-				// AGREGAR CODIGO PARA QUE SE EXECUTE EL PLAN
-				if (planCreado){
-				UI.this.setVisible(false);}
-			}
-		});
+		
 		btnExecute.setFont(new Font("Calibri", Font.PLAIN, 18));
 		btnExecute.setBounds(373, 537, 114, 23);
 
@@ -390,9 +384,10 @@ public class UI extends JFrame {
 				DirectorioImagenes.setText("");
 			}
 		});
-		Label_agregarDir.setBounds(441, 400, 26, 27);
+		Label_agregarDir.setBounds(502, 400, 26, 27);
 		contentPane.add(Label_agregarDir);
-		ImageIcon image = new ImageIcon(getClass().getResource("add.jpg"));
+		
+		ImageIcon image = new ImageIcon(getClass().getResource("add.png"));
 		Icon icon = new ImageIcon(image.getImage().getScaledInstance(
 				Label_agregarDir.getWidth(), Label_agregarDir.getHeight(),
 				Image.SCALE_DEFAULT));
@@ -402,6 +397,28 @@ public class UI extends JFrame {
 		label.setFont(new Font("Calibri", Font.PLAIN, 19));
 		label.setBounds(429, 23, 161, 31);
 		contentPane.add(label);
+		
+		JLabel Laber_DirTree = new JLabel();
+		Laber_DirTree.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				JFileChooser chooser = new JFileChooser();
+				chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+			    // Note: source for ExampleFileFilter can be found in FileChooserDemo,
+			    // under the demo/jfc directory in the JDK.
+			    int returnVal = chooser.showOpenDialog(contentPane);
+			    if(returnVal == JFileChooser.APPROVE_OPTION) {
+			       DirectorioImagenes.setText(chooser.getSelectedFile().getAbsolutePath());
+			    }
+			}
+		});
+		Laber_DirTree.setBounds(461, 400, 26, 27);
+		contentPane.add(Laber_DirTree);
+		ImageIcon image2 = new ImageIcon(getClass().getResource("file.png"));
+		Icon icon2 = new ImageIcon(image2.getImage().getScaledInstance(
+				Label_agregarDir.getWidth(), Label_agregarDir.getHeight(),
+				Image.SCALE_DEFAULT));
 
+		Laber_DirTree.setIcon(icon2);
 	}
 }

@@ -22,6 +22,8 @@ public class ImageProc {
 	private Vector<Boolean> SunGlasses = null;
 	private Vector<Boolean> Smile = null;
 	private Vector<String> Orientations = null;
+	
+	private Integer error = null;
 
 	public ImageProc(String path_image) {
 		this.setFile_path(path_image);
@@ -180,6 +182,14 @@ public class ImageProc {
 			this.earsP=new Vector<Point>();
 		}
 		this.earsP.add(earsP);
+	}
+
+	public void setError(int status) {
+		this.error=status;
+	}
+
+	public Integer getError() {
+		return error;
 	}
 
 }

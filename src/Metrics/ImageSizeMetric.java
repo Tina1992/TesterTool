@@ -8,10 +8,10 @@ import Servicies.ImageProc;
 public class ImageSizeMetric extends AbsMetric {
 
 	@Override
-	public float getDato(AbsService service, ImageProc image) throws Exception {
+	public Object getDato(AbsService service, ImageProc image){
 		String path=image.getFile_path();
 		File f=new File(path);
-		return f.getTotalSpace();
+		return (float)f.length()/1024;
 	}
 
 	@Override
@@ -23,7 +23,7 @@ public class ImageSizeMetric extends AbsMetric {
 	@Override
 	public String getMedida() {
 		// TODO Auto-generated method stub
-		return "Byte";
+		return "KB";
 	}
 
 }
