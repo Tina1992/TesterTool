@@ -78,6 +78,7 @@ public class PrecisionMetric extends AbsMetric {
 	@Override
 	public Object getDato(AbsService service, ImageProc image) {
 		// TODO Auto-generated method stub
+		if (image.getError()==null){
 		Path file_path = FileSystems.getDefault().getPath(image.getFile_path());
 		Path file_name = file_path.getFileName();
 
@@ -111,7 +112,11 @@ public class PrecisionMetric extends AbsMetric {
 			// TODO Auto-generated catch block
 			return (float) -4;
 		}
-		return (float) 0;
+		return (float) 0;}
+		else
+		{
+			return (float)-5;
+		}
 	}
 
 	@Override

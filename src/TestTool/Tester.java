@@ -43,8 +43,11 @@ public class Tester {
 							fArray = fD.listFiles();
 						} else {
 							File[] aux = fD.listFiles();
-							fArray = new File[s.getLimRequest()];
-							for (int j = 0; j < s.getLimRequest(); j++) {
+							int min = fD.listFiles().length;
+							if (s.getLimRequest()<min)
+								min=s.getLimRequest();
+							fArray = new File[min];
+							for (int j = 0; j < min; j++) {
 								fArray[j] = aux[j];
 							}
 						}

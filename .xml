@@ -3,26 +3,22 @@
   <Name />
   <NumberOfExecutionsPerImageAndProvider>1</NumberOfExecutionsPerImageAndProvider>
   <Providers>
-    <ProviderName>FaceRect</ProviderName>
     <ProviderName>OpenCV</ProviderName>
   </Providers>
   <settings>
-    <Eyes>true</Eyes>
+    <Eyes>false</Eyes>
     <Smile>false</Smile>
-    <Nose>true</Nose>
+    <Nose>false</Nose>
     <Ears>false</Ears>
     <Sunglasses>false</Sunglasses>
     <FaceOrientation>false</FaceOrientation>
     <Cheeks>false</Cheeks>
     <Gender>false</Gender>
-    <Mouth>true</Mouth>
+    <Mouth>false</Mouth>
     <Glasses>false</Glasses>
   </settings>
   <Images>
-    <DirectoryName>C:\Users\Martina\workspace\TestToolJava\Eyeimages</DirectoryName>
+    <DirectoryName>C:\Users\Martina\Desktop\Dump\Faces 2</DirectoryName>
   </Images>
-  <Metrics>
-    <Metric>ResponseTime</Metric>
-    <Metric>HausdorffDistance</Metric>
-  </Metrics>
+  <Metrics />
 </TestPlan>

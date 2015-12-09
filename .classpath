@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/OpenCV-3.0.0"/>
-	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/target/unirest-java-1.4.8-SNAPSHOT-jar-with-dependencies.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-contrib.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-junit.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-sources.jar"/>
+	<classpathentry excluding="Servicies/classificators/" kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/OpenCV-3.0.0"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Martina/Desktop/unirest-java/target/unirest-java-1.4.8-SNAPSHOT-jar-with-dependencies.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-contrib.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-junit.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Martina/Desktop/unirest-java/jdom-2.0.6-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
